@@ -1,0 +1,75 @@
+<?php
+return apply_filters( 'wcss_developer_settings', array(
+    array(
+        'title'   => __( 'Debug', 'woo-cart-share' ),
+        'desc'    => array(
+            __( 'Enable/ Disable', 'woo-cart-share' ),
+            __( 'By enabling debug option you allow us to view plugin settings, server environment, installed plugins.', 'woo-cart-share' ),
+        ),
+        'id'      => 'wcss_debug_status',
+        'default' => 'no',
+        'type'    => 'checkbox',
+    ),
+    array(
+        'title'    => __( 'Share Cart Base URL', 'woo-cart-share' ),
+        'desc'     => sprintf( __( 'Default: %s', 'woo-cart-share' ), '<code>cart-share</code>' ),
+        'desc_tip' => __( 'You can change the share cart base URL.', 'woo-cart-share' ),
+        'id'       => 'wcss_base_slug',
+        'default'  => 'cart-share',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    array(
+        'id'    => 'wcss_fix_404_issue_button',
+        'title' => __( 'Fix 404 Issue', 'woo-cart-share' ),
+        'desc'  => __( 'Fix 404 redirection issue while retrieving cart.', 'woo-cart-share' ),
+        'value' => __( 'Fix Now', 'woo-cart-share' ),
+        'type'  => 'link',
+        'class' => 'button button-secondary',
+        'link'  => wp_nonce_url( '?wcss_flush_rewrite_rules=1' ),
+    ),
+    array(
+        'id'                => 'wcss_reset_settings',
+        'title'             => __( 'Reset Settings', 'woo-cart-share' ),
+        'desc'              => __( 'Reset all settings to default.', 'woo-cart-share' ),
+        'value'             => __( 'Reset', 'woo-cart-share' ),
+        'link'              => wp_nonce_url( '?wcss_reset_settings=1' ),
+        'type'              => 'link',
+        'class'             => 'button button-secondary',
+        'custom_attributes' => array(
+            'onClick' => 'return confirm( "' . __( 'Are you sure?', 'woo-cart-share' ) . '" )',
+        ),
+    ),
+    array(
+        'id'                => 'wcss_delete_saved_cart',
+        'title'             => __( 'Delete Saved Cart', 'woo-cart-share' ),
+        'desc'              => __( 'Delete all saved cart by users and admin but not shared cart.', 'woo-cart-share' ),
+        'value'             => __( 'Delete', 'woo-cart-share' ),
+        'link'              => wp_nonce_url( '?wcss_delete_all_saved_cart=1' ),
+        'type'              => 'link',
+        'class'             => 'button button-secondary',
+        'custom_attributes' => array(
+            'onClick' => 'return confirm( "' . __( 'Are you sure?', 'woo-cart-share' ) . '" )',
+        ),
+    ),
+    array(
+        'id'                => 'wcss_delete_all_cart',
+        'title'             => __( 'Delete Saved & Shared Cart', 'woo-cart-share' ),
+        'desc'              => __( 'Delete all saved cart shared cart by users and admin.', 'woo-cart-share' ),
+        'value'             => __( 'Delete', 'woo-cart-share' ),
+        'link'              => wp_nonce_url( '?wcss_delete_all_cart=1' ),
+        'type'              => 'link',
+        'class'             => 'button button-secondary',
+        'custom_attributes' => array(
+            'onClick' => 'return confirm( "' . __( 'Are you sure?', 'woo-cart-share' ) . '" )',
+        ),
+    ),
+    array(
+        'title'    => __( 'Delete Plugin Setting', 'woo-cart-share' ),
+        'desc'     => __( 'Enable/ Disable', 'woo-cart-share' ),
+        'desc_tip' => __( 'If you want to delete plugin settings stored in database then enable this option and then click on the save changes button. Now delete the plugin from your plugins page.', 'woo-cart-share' ),
+        'id'       => 'wcss_delete_all',
+        'default'  => 'no',
+        'type'     => 'checkbox',
+    ),
+) );

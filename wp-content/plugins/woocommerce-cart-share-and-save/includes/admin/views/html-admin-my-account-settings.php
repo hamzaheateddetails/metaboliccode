@@ -1,0 +1,58 @@
+<?php
+return apply_filters( 'wcss_my_account_settings', array(
+    'wcss_my_account_tab_name'                     => array(
+        'title'    => __( 'Tab Name', 'woo-cart-share' ),
+        'desc_tip' => __( 'You can change the tab name from here.', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_tab_name',
+        'default'  => 'Saved Cart',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    'wcss_my_account_tab_slug'                     => array(
+        'title'    => __( 'Slug', 'woo-cart-share' ),
+        'desc'     => sprintf( __( 'Default %s', 'woo-cart-share' ), '<code>saved-cart</code>' ),
+        'desc_tip' => __( 'You can change the slug ( URL parameter ) from here.', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_tab_slug',
+        'default'  => 'saved-cart',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    'wcss_my_account_restore_button_lable'          => array(
+        'title'    => __( 'Restore Cart Button Label', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_restore_button_lable',
+        'default'  => 'Restore',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    'wcss_my_account_share_button_lable'            => array(
+        'title'    => __( 'Share Cart Button Label', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_share_button_lable',
+        'default'  => 'Restore',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    'wcss_my_account_delete_button_lable'           => array(
+        'title'    => __( 'Delete Cart Button Label', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_delete_button_lable',
+        'default'  => 'Restore',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    'wcss_my_account_empty_saved_cart_button_text' => array(
+        'title'    => __( 'Empty Saved Cart Button', 'woo-cart-share' ),
+        'desc_tip' => __( 'Enter button label for no saved cart.', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_empty_saved_cart_button_text',
+        'default'  => 'Go shop',
+        'type'     => 'text',
+        'class'    => 'regular-text',
+    ),
+    'wcss_my_account_empty_saved_cart_message'     => array(
+        'title'    => __( 'Empty Saved Cart Message', 'woo-cart-share' ),
+        'desc_tip' => __( 'Enter message for no saved cart.', 'woo-cart-share' ),
+        'id'       => 'wcss_my_account_empty_saved_cart_message',
+        'default'  => 'No saved cart yet.',
+        'type'     => 'textarea',
+        'class'    => 'regular-text',
+        'css'      => 'height:120px;',
+    ),
+) );

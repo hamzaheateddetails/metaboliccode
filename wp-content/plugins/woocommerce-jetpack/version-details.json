@@ -1,0 +1,6 @@
+{
+    "0" : "= 5.6.6 28/09/2022 =",
+    "1" : "* FIXED - CART & CHECKOUT - Checkout Core Fields - Fixed checkout form design issues.",
+    "2" : "* FIXED - PAYMENT GATEWAYS - Gateways Min/Max Amounts - Fixed showing all payment gateways notice on the checkout page.",
+    "3" : "* FIXED - BUTTON & PRICE LABELS - Custom Price Labels- Escape the HTML content from the 'per page product meta box' value."
+}

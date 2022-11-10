@@ -1,0 +1,27 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wcss_share_cart_button_text" />
+        <key name="wcss_share_cart_title" />
+        <key name="wcss_save_cart_button_text" />
+        <key name="wcss_login_now_button_text" />
+        <key name="wcss_save_cart_input_placeholder" />
+        <key name="wcss_save_cart_message" />
+        <key name="wcss_save_cart_not_logged_in_message" />
+        <key name="wcss_empty_cart_message" />
+        <key name="wcss_cart_retrieved_message" />
+        <key name="wcss_cart_not_found_message" />
+        <key name="wcss_share_cart_email_to_label" />
+        <key name="wcss_share_cart_email_subject_label" />
+        <key name="wcss_share_cart_email_message_label" />
+        <key name="wcss_share_cart_email_button_text" />
+        <key name="wcss_social_share_message" />
+        <key name="wcss_my_account_tab_name" />
+        <key name="wcss_my_account_empty_saved_cart_button_text" />
+        <key name="wcss_my_account_restore_button_lable" />
+        <key name="wcss_my_account_share_button_lable" />
+        <key name="wcss_my_account_delete_button_lable" />
+        <key name="wcss_my_account_empty_saved_cart_message" />
+        <key name="wcss_email_retrieve_cart_button_text" />
+        <key name="wcss_email_description" />
+    </admin-texts>
+</wpml-config>
