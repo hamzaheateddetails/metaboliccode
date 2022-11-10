@@ -1,0 +1,50 @@
+.wl-sales-notification {
+	position: fixed;
+	bottom: 0;
+	z-index: 1000;
+}
+.wl-sales-notification .notification {
+	display: none;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 3px 3px 7px 0px rgba(167.9, 167.9, 167.9, 0.46);
+	padding: 10px 20px 10px 20px;
+}
+.wl-sales-notification .notifications-wrapper .notifications a{
+	color: #002131;
+}
+.wl-sales-notification .notifications-wrapper .notifications .notification .image,
+.wl-sales-notification .notifications-wrapper .notifications .notification .item_details{
+	float: left;
+}
+.wl-sales-notification .notification .image{
+	width: 60px;
+	height: 60px;
+}
+.wl-sales-notification .notification .image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.wl-sales-notification .notification .item_details{
+	margin-left: 10px;
+	font-size: 13px;
+}
+.wl-sales-notification .notification .item_details p{
+	margin-bottom: 0;
+}
+.wl-sales-notification.left {
+	left: 0;
+}
+.wl-sales-notification.right {
+	right: 0;
+}
+.elementor-widget-sales-notification {
+	margin-bottom: 0px !important;
+}
+.wl-sales-notification .notification .item_details p.wl-sn-time {
+	color: #c36;
+	font-weight: 600;
+}

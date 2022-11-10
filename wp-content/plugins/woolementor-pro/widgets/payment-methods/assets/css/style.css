@@ -1,0 +1,32 @@
+.wl-pm {
+	background: #ebe9eb;
+}
+.wl-pm #payment{
+	background: transparent;
+}
+.wl .wl-pm .button{
+	background-color: transparent;
+	color: #c36;
+	border: 1px solid #c36;
+}
+.wl .wl-pm .button:hover{
+	background-color: #c36;
+	color: #fff;
+}
+.wl .wl-pm .woocommerce-privacy-policy-text p {
+	font-size: 13px;
+	color: #423737;
+}
+.wl .wl-pm .woocommerce-checkout-payment ul li label {
+	font-size: 14px;
+	color: #463e3e;
+	font-weight: 500;
+	display: inline;
+}
+.wl .wl-pm .woocommerce-checkout-payment ul li label a {
+	margin-left: 10px;
+}
+.wl .wl-pm .woocommerce-checkout-payment ul li label img {
+	display: inline;
+	max-height: 24px;
+}

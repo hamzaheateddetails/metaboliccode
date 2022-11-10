@@ -1,0 +1,29 @@
+.wl .wl-order-review table tr td {
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+.wl .wl-order-review thead tr {
+	background: transparent;
+	color: #000;
+	border: 1px solid #ccc;
+}
+.wl .wl-order-review thead tr th {
+	font-size: 14px;
+	border: none;
+}
+
+/*border-collapse*/
+/*table.shop_table.woocommerce-checkout-review-order-table {
+	border-collapse: collapse;
+	border-radius: 1em;
+	overflow: hidden;
+}
+table.shop_table.woocommerce-checkout-review-order-table  {
+	border: 1px solid rgba(0,0,0,.1);
+	margin: 0 -1px 24px 0;
+	text-align: left;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 5px;
+}*/
+/*border-collapse*/

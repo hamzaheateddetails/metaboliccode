@@ -1,0 +1,20 @@
+{
+    "name": "codexpert/Woolementor_Pro",
+    "authors": [
+        {
+            "name": "codexpert",
+            "email": "hello@codexpert.io"
+        }
+    ],
+    "require": {
+        "pluggable/product": "dev-master",
+        "codexpert/product": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "codexpert\\Woolementor_Pro\\" : "src/",
+            "codexpert\\Woolementor_Pro\\Templates\\" : "templates/"
+        },
+        "files": [ "functions/helpers.php", "functions/options.php" ]
+    }
+}

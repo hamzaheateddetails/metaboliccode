@@ -1,0 +1,22 @@
+{
+    "name": "pluggable/product",
+    "type": "library",
+    "description": "Product management for Pluggable",
+    "keywords": ["product","pluggable"],
+    "homepage": "https://bitbucket.org/pluggableio/pluggable-product",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Pluggable",
+            "email": "hello@pluggable.io",
+            "homepage": "https://pluggable.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}

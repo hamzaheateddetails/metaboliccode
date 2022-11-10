@@ -1,0 +1,38 @@
+.wl .wl-order-pay table.shop_table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.wl .wl-order-pay table tr td {
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+.wl .wl-order-pay thead tr {
+	background: transparent;
+	color: #000;
+	border: 1px solid #ccc;
+}
+.wl .wl-order-pay thead tr th {
+	font-size: 14px;
+	border: none;
+}
+.wl .wl-order-pay button#place_order {
+	background-color: transparent;
+	color: #c36;
+	border: 1px solid #c36;
+	transition: .4s;
+}
+.wl .wl-order-pay button#place_order:hover {
+	background-color: #c36;
+	color: #fff;
+}
+.wl .wl-order-pay .shop_table {}
+.wl .wl-order-pay .shop_table .order_item {}
+.wl .wl-order-pay .shop_table .order_item td {
+	padding: .7em 1em;
+}
+.wl .wl-order-pay .shop_table tfoot {}
+.wl .wl-order-pay .shop_table tfoot tr {}
+.wl .wl-order-pay .shop_table tfoot tr th {}
+.wl .wl-order-pay .shop_table tfoot tr td {
+	padding: .7em 1em;
+}

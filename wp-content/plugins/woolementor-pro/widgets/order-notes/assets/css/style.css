@@ -1,0 +1,32 @@
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='radio']{
+	margin-left: 10px;
+	margin-right: 1px;
+}
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='text'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='password'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='datetime'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='datetime-local'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='date'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='month'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='time'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='week'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='number'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='email'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='url'],
+.wl .wl-order-notes .woocommerce-input-wrapper input[type='tel'],
+.wl .wl-order-notes .woocommerce-input-wrapper select{
+	width: 100%;
+}
+.wl .wl-order-notes p label {
+	font-size: 14px;
+	font-weight: 500;
+}
+.wl .wl-order-notes .woocommerce-input-wrapper input {
+	border: 1px solid #ddd;
+}
+.wl .wl-order-notes .woocommerce-input-wrapper select {
+	border: 1px solid #ddd;
+}
+.wl .wl-order-notes .woocommerce-input-wrapper textarea {
+	border: 1px solid #ddd;
+}

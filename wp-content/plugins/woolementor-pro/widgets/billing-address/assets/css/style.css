@@ -1,0 +1,70 @@
+.wl .form-row-first{
+	width: 48%;
+	float: left;
+	margin-right: 0px;
+}
+.rtl.wl .form-row-first{
+	width: 48%;
+	float: right;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.rtl.wl .form-row-last{
+	width: 48%;
+	float: left;
+}
+.wl .form-row-last {
+	width: 48%;
+	float: right;
+}
+.wl .form-row-wide{
+	clear: both;
+}
+.wl .wl-billing input[type="text"]{
+	width: 100%;
+}
+.wl .wl-billing p label {
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+}
+.wl .wl-billing p input {
+	border: 1px solid #ddd;
+}
+.woocommerce .select2-container .select2-selection--single,
+.woocommerce select,
+.woocommerce-page .select2-container .select2-selection--single,
+.woocommerce-page select {
+	padding: 0; 
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+}
+.wl .wl-billing .woocommerce-input-wrapper input[type='radio']{
+	margin-left: 10px;
+	margin-right: 1px;
+}
+.wl .wl-billing .woocommerce-input-wrapper input[type='text'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='password'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='datetime'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='datetime-local'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='date'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='month'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='time'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='week'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='number'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='email'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='url'],
+.wl .wl-billing .woocommerce-input-wrapper input[type='tel'],
+.wl .wl-billing .woocommerce-input-wrapper select{
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.wl-billing span select,
+.wl-billing .select2-container .select2-selection--single {
+	padding-bottom: 30px;
+}
+.wl span.woocommerce-input-wrapper {
+    width: 100%;
+}
