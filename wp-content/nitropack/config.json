@@ -1,0 +1,19 @@
+{
+    "www.metaboliccode.com": {
+        "siteId": "FjXKuAMcFQQdbndXPqZoDjWkRaWOBDpV",
+        "siteSecret": "jhFYsauEf8UrioFg5ML8QyllDIqWUaYtCZyqkLoaQrl05CD8siffAmvXsiW3gUct",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "b4af64035acc94e7a0b593a36d9086a1",
+        "home_url": "https:\/\/www.metaboliccode.com",
+        "admin_url": "https:\/\/www.metaboliccode.com\/wp-admin\/",
+        "hosting": "wpengine",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.7"
+    }
+}
