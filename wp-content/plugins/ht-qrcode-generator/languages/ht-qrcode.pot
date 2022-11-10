@@ -1,0 +1,689 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HT QR Code Generator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-11 10:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.1; wp-5.7\n"
+"X-Domain: ht-qrcode"
+
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: include/class.htqrcode.php:49
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: include/elementor_widgets.php:1256
+msgid "#204d74"
+msgstr ""
+
+#: include/elementor_widgets.php:1036 include/elementor_widgets.php:1052
+msgid "#218838"
+msgstr ""
+
+#: include/elementor_widgets.php:1129
+msgid "#286090"
+msgstr ""
+
+#: include/elementor_widgets.php:925 include/elementor_widgets.php:963
+msgid "#28a745"
+msgstr ""
+
+#: include/elementor_widgets.php:1167
+msgid "#2e6da4"
+msgstr ""
+
+#: include/elementor_widgets.php:1240
+msgid "#337ab7"
+msgstr ""
+
+#: include/elementor_widgets.php:944 include/elementor_widgets.php:1148
+msgid "#ffffff"
+msgstr ""
+
+#: include/elementor_widgets.php:81
+msgid "0. Custom"
+msgstr ""
+
+#: include/elementor_widgets.php:562
+msgid "1"
+msgstr ""
+
+#: include/elementor_widgets.php:82
+msgid "1. Normal"
+msgstr ""
+
+#: include/elementor_widgets.php:91
+msgid "10. Logo + quietZone Color"
+msgstr ""
+
+#: include/elementor_widgets.php:92
+msgid "11. Logo + Dot Scale"
+msgstr ""
+
+#: include/elementor_widgets.php:93
+msgid "12. Logo + Colorful Style 1"
+msgstr ""
+
+#: include/elementor_widgets.php:94
+msgid "13. Logo + Colorful Style 2"
+msgstr ""
+
+#: include/elementor_widgets.php:95
+msgid "14. QuietZone + Logo + Background"
+msgstr ""
+
+#: include/elementor_widgets.php:83
+msgid "2. Color"
+msgstr ""
+
+#: include/elementor_widgets.php:84
+msgid "3. Dot Scale"
+msgstr ""
+
+#: include/elementor_widgets.php:85
+msgid "4. Position Color + Alignment Color"
+msgstr ""
+
+#: include/elementor_widgets.php:86
+msgid "5. Position Color + Dot Scale"
+msgstr ""
+
+#: include/elementor_widgets.php:87
+msgid "6. Timing + Dot Scale"
+msgstr ""
+
+#: include/elementor_widgets.php:88
+msgid "7. Background Image"
+msgstr ""
+
+#: include/elementor_widgets.php:89
+msgid "8. Auto Color + Background Image + Dot Scale"
+msgstr ""
+
+#: include/elementor_widgets.php:90
+msgid "9. AutoColor + background Image Alpha"
+msgstr ""
+
+#: include/elementor_widgets.php:327
+msgid "Address:"
+msgstr ""
+
+#: include/default_widgets.php:312 include/elementor_widgets.php:798
+msgid "Aligment Inner Color:"
+msgstr ""
+
+#: include/default_widgets.php:307 include/elementor_widgets.php:787
+msgid "Aligment Outer Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:37
+msgid "Alignment"
+msgstr ""
+
+#: include/default_widgets.php:259 include/elementor_widgets.php:572
+msgid "Background Auto Color:"
+msgstr ""
+
+#: include/default_widgets.php:272 include/elementor_widgets.php:624
+msgid "Background Color:"
+msgstr ""
+
+#: include/default_widgets.php:254 include/elementor_widgets.php:557
+msgid "Background Image Opacity:"
+msgstr ""
+
+#: include/default_widgets.php:235 include/elementor_widgets.php:513
+msgid "Background Transparent"
+msgstr ""
+
+#: include/elementor_widgets.php:991 include/elementor_widgets.php:1195
+msgid "Border Radius"
+msgstr ""
+
+#: include/elementor_widgets.php:919 include/elementor_widgets.php:1034
+#: include/elementor_widgets.php:1123 include/elementor_widgets.php:1238
+msgid "Button background color"
+msgstr ""
+
+#: include/elementor_widgets.php:983 include/elementor_widgets.php:1187
+msgid "Button Border"
+msgstr ""
+
+#: include/elementor_widgets.php:957 include/elementor_widgets.php:1050
+#: include/elementor_widgets.php:1161 include/elementor_widgets.php:1254
+msgid "Button border color"
+msgstr ""
+
+#: include/elementor_widgets.php:938 include/elementor_widgets.php:1142
+msgid "Button Text color"
+msgstr ""
+
+#: include/elementor_widgets.php:892 include/elementor_widgets.php:1095
+msgid "Button Text Here."
+msgstr ""
+
+#: include/default_widgets.php:193 include/elementor_widgets.php:45
+msgid "Center"
+msgstr ""
+
+#: include/elementor_widgets.php:543
+msgid "Choose Background Image:"
+msgstr ""
+
+#: include/elementor_widgets.php:484
+msgid "Choose Logo"
+msgstr ""
+
+#: include/default_widgets.php:248
+msgid "Choose QR Code Background Image:"
+msgstr ""
+
+#: include/elementor_widgets.php:119
+msgid "Choose QR Code Category:"
+msgstr ""
+
+#: include/default_widgets.php:224
+msgid "Choose QR Code Logo:"
+msgstr ""
+
+#. Author of the plugin
+msgid "codecarnival"
+msgstr ""
+
+#: include/elementor_widgets.php:166
+msgid "Company:"
+msgstr ""
+
+#: include/elementor_widgets.php:133
+msgid "Contact Information"
+msgstr ""
+
+#: include/elementor_widgets.php:125
+msgid "Current Page URL"
+msgstr ""
+
+#: include/elementor_widgets.php:188
+msgid "Custom URL:"
+msgstr ""
+
+#: include/default_widgets.php:330 include/default_widgets.php:343
+msgid "Disable"
+msgstr ""
+
+#: include/elementor_widgets.php:882 include/elementor_widgets.php:1085
+msgid "Disable "
+msgstr ""
+
+#: include/elementor_widgets.php:1072
+msgid "Download Button Option"
+msgstr ""
+
+#: include/default_widgets.php:348 include/elementor_widgets.php:1093
+msgid "Download Button Text:"
+msgstr ""
+
+#: include/elementor_widgets.php:1080
+msgid "Download Button:"
+msgstr ""
+
+#: include/default_widgets.php:340
+msgid "Download QR Code Button:"
+msgstr ""
+
+#: include/elementor_widgets.php:128
+msgid "Email Address"
+msgstr ""
+
+#: include/elementor_widgets.php:234
+msgid "Email:"
+msgstr ""
+
+#: include/default_widgets.php:329 include/default_widgets.php:342
+#: include/elementor_widgets.php:881 include/elementor_widgets.php:1084
+msgid "Enable"
+msgstr ""
+
+#: include/elementor_widgets.php:363
+msgid "Encoding:"
+msgstr ""
+
+#: include/default_widgets.php:180
+msgid "Enter Your Title:"
+msgstr ""
+
+#: include/elementor_widgets.php:401
+msgid "Example: 300 "
+msgstr ""
+
+#: include/default_widgets.php:238 include/default_widgets.php:262
+msgid "False"
+msgstr ""
+
+#: include/elementor_widgets.php:518 include/elementor_widgets.php:576
+msgid "False "
+msgstr ""
+
+#: include/elementor_widgets.php:379
+msgid "General Options:"
+msgstr ""
+
+#: include/elementor_widgets.php:130
+msgid "Google Maps Location"
+msgstr ""
+
+#: include/elementor_widgets.php:131
+msgid "Google Talk Client"
+msgstr ""
+
+#: include/default_widgets.php:219 include/elementor_widgets.php:457
+msgid "High"
+msgstr ""
+
+#: include/elementor_widgets.php:1027 include/elementor_widgets.php:1231
+msgid "Hover"
+msgstr ""
+
+#: include/default_widgets.php:8 include/default_widgets.php:14
+#: include/elementor_widgets.php:13 include/elementor_widgets.php:29
+msgid "HT QR Code"
+msgstr ""
+
+#. Name of the plugin
+msgid "HT QR Code Generator"
+msgstr ""
+
+#: include/elementor_widgets.php:61
+msgid "HT QR Code Style:"
+msgstr ""
+
+#: include/class.htqrcode.php:50
+msgid "HT QRCode Addons"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codecanyon.net/item/ht-qr-code-generator-for-wordpress/25515123"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hasthemes.com/"
+msgstr ""
+
+#: include/elementor_widgets.php:256
+msgid "Latitude:"
+msgstr ""
+
+#: include/default_widgets.php:192 include/elementor_widgets.php:41
+msgid "Left"
+msgstr ""
+
+#: include/elementor_widgets.php:530
+msgid "Logo Background Color"
+msgstr ""
+
+#: include/default_widgets.php:243
+msgid "Logo Background Color:"
+msgstr ""
+
+#: include/default_widgets.php:230
+msgid "logo size:"
+msgstr ""
+
+#: include/elementor_widgets.php:498
+msgid "Logo size: (Max Size 100px)"
+msgstr ""
+
+#: include/elementor_widgets.php:267
+msgid "Longitude:"
+msgstr ""
+
+#: include/default_widgets.php:216 include/elementor_widgets.php:454
+msgid "Low"
+msgstr ""
+
+#: include/elementor_widgets.php:1012 include/elementor_widgets.php:1216
+msgid "Margin"
+msgstr ""
+
+#: include/elementor_widgets.php:368
+msgid "MECARD"
+msgstr ""
+
+#: include/default_widgets.php:217
+msgid "Medium"
+msgstr ""
+
+#: include/elementor_widgets.php:455
+msgid "Medium "
+msgstr ""
+
+#: include/elementor_widgets.php:222
+msgid "Message:"
+msgstr ""
+
+#: include/elementor_widgets.php:127
+msgid "Mobile Number"
+msgstr ""
+
+#: include/elementor_widgets.php:200
+msgid "Mobile Number:"
+msgstr ""
+
+#: include/elementor_widgets.php:155
+msgid "Name:"
+msgstr ""
+
+#: include/elementor_widgets.php:311
+msgid "Network Type:"
+msgstr ""
+
+#: include/elementor_widgets.php:350
+msgid "Node:"
+msgstr ""
+
+#: include/elementor_widgets.php:912 include/elementor_widgets.php:1116
+msgid "Normal"
+msgstr ""
+
+#: include/elementor_widgets.php:353
+msgid "Note.."
+msgstr ""
+
+#: include/elementor_widgets.php:1001 include/elementor_widgets.php:1205
+msgid "Padding"
+msgstr ""
+
+#: include/elementor_widgets.php:639
+msgid "Pasotion Pattern Global Style"
+msgstr ""
+
+#: include/elementor_widgets.php:686
+msgid "Pasotion Pattern Individual Style"
+msgstr ""
+
+#: include/elementor_widgets.php:300
+msgid "Password:"
+msgstr ""
+
+#: include/default_widgets.php:302 include/elementor_widgets.php:763
+msgid "Pattern Inner Bottom Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:672
+msgid "Pattern Inner Global Color:"
+msgstr ""
+
+#: include/default_widgets.php:282 include/elementor_widgets.php:719
+msgid "Pattern Inner Top Left Color:"
+msgstr ""
+
+#: include/default_widgets.php:292 include/elementor_widgets.php:741
+msgid "Pattern Inner Top Right Color:"
+msgstr ""
+
+#: include/default_widgets.php:297 include/elementor_widgets.php:752
+msgid "Pattern Outer Bottom Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:661
+msgid "Pattern Outer Global Color:"
+msgstr ""
+
+#: include/default_widgets.php:277 include/elementor_widgets.php:708
+msgid "Pattern Outer Top Left Color:"
+msgstr ""
+
+#: include/default_widgets.php:287 include/elementor_widgets.php:730
+msgid "Pattern Outer Top Right Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:211
+msgid "Phone Number:"
+msgstr ""
+
+#: include/class.htqrcode.php:51
+msgid "PHP"
+msgstr ""
+
+#: include/default_widgets.php:249
+msgctxt "placeholder"
+msgid "Choose Your Background Image."
+msgstr ""
+
+#: include/default_widgets.php:225
+msgctxt "placeholder"
+msgid "Choose your logo"
+msgstr ""
+
+#: include/default_widgets.php:349
+msgctxt "placeholder"
+msgid "Download Button Text Here."
+msgstr ""
+
+#: include/default_widgets.php:273 include/default_widgets.php:278
+#: include/default_widgets.php:283 include/default_widgets.php:288
+#: include/default_widgets.php:293 include/default_widgets.php:298
+#: include/default_widgets.php:303 include/default_widgets.php:308
+#: include/default_widgets.php:313 include/default_widgets.php:318
+#: include/default_widgets.php:323
+msgctxt "placeholder"
+msgid "Example: #ffffff"
+msgstr ""
+
+#: include/default_widgets.php:210 include/default_widgets.php:255
+msgctxt "placeholder"
+msgid "Example: 0.1 to 1"
+msgstr ""
+
+#: include/default_widgets.php:205
+msgctxt "placeholder"
+msgid "Example: 200"
+msgstr ""
+
+#: include/default_widgets.php:231
+msgctxt "placeholder"
+msgid "Example: 50"
+msgstr ""
+
+#: include/default_widgets.php:200
+msgctxt "placeholder"
+msgid ""
+"If you do not enter any text or URL here, Then the default page URL QR code "
+"will be shown on this page."
+msgstr ""
+
+#: include/default_widgets.php:186
+msgctxt "placeholder"
+msgid "Please enter your sub title here."
+msgstr ""
+
+#: include/default_widgets.php:181
+msgctxt "placeholder"
+msgid "Please enter your title here."
+msgstr ""
+
+#: include/default_widgets.php:336
+msgctxt "placeholder"
+msgid "Print Button Text Here."
+msgstr ""
+
+#: include/default_widgets.php:199
+msgid "Please QR Code Text Here:"
+msgstr ""
+
+#: include/elementor_widgets.php:869
+msgid "Print Button Option"
+msgstr ""
+
+#: include/default_widgets.php:335 include/elementor_widgets.php:890
+msgid "Print Button Text:"
+msgstr ""
+
+#: include/elementor_widgets.php:877
+msgid "Print Button:"
+msgstr ""
+
+#: include/default_widgets.php:327
+msgid "Print QR Code Button:"
+msgstr ""
+
+#: include/default_widgets.php:209
+msgid "QR Code Dot Scale ( 0.1 to 1 ):"
+msgstr ""
+
+#: include/elementor_widgets.php:408
+msgid "QR Code Dot Scale:"
+msgstr ""
+
+#: include/elementor_widgets.php:465
+msgid "QR Code Image"
+msgstr ""
+
+#: include/default_widgets.php:190
+msgid "QR Code Positions:"
+msgstr ""
+
+#: include/default_widgets.php:204 include/elementor_widgets.php:395
+msgid "QR Code Size:"
+msgstr ""
+
+#: include/elementor_widgets.php:591
+msgid "QR Code Style"
+msgstr ""
+
+#: include/elementor_widgets.php:77
+msgid "QR Code Style:"
+msgstr ""
+
+#: include/elementor_widgets.php:103
+msgid "QR Code Text:"
+msgstr ""
+
+#: include/default_widgets.php:267 include/elementor_widgets.php:613
+msgid "QR Dot Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:450
+msgid "QR EC Level"
+msgstr ""
+
+#: include/default_widgets.php:214
+msgid "QR EC Level:"
+msgstr ""
+
+#: include/elementor_widgets.php:437
+msgid "QR Quiet Zone Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:422
+msgid "QR Quiet Zone:"
+msgstr ""
+
+#: include/default_widgets.php:218 include/elementor_widgets.php:456
+msgid "Quartile"
+msgstr ""
+
+#: include/elementor_widgets.php:278
+msgid "Query:"
+msgstr ""
+
+#: include/default_widgets.php:194 include/elementor_widgets.php:49
+msgid "Right"
+msgstr ""
+
+#: include/elementor_widgets.php:126
+msgid "Send SMS"
+msgstr ""
+
+#: include/elementor_widgets.php:129
+msgid "Skype Call"
+msgstr ""
+
+#: include/elementor_widgets.php:245
+msgid "Skype:"
+msgstr ""
+
+#: include/elementor_widgets.php:289
+msgid "SSID:"
+msgstr ""
+
+#: include/default_widgets.php:185
+msgid "Sub Title:"
+msgstr ""
+
+#: include/elementor_widgets.php:123
+msgid "Text"
+msgstr ""
+
+#: include/elementor_widgets.php:142
+msgid "Text Here:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The HT QR Code Generator is for WordPress plugin you can generate wide "
+"custom and automatic site page URL QR code generator and use them for "
+"Elementor, widgets, and Shortcodes."
+msgstr ""
+
+#: include/elementor_widgets.php:834
+msgid "Timing Global Color:"
+msgstr ""
+
+#: include/default_widgets.php:317 include/elementor_widgets.php:845
+msgid "Timing Horizontal Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:812
+msgid "Timing Pattern Style (Global & Individual)"
+msgstr ""
+
+#: include/default_widgets.php:322 include/elementor_widgets.php:856
+msgid "Timing Vertical Color:"
+msgstr ""
+
+#: include/elementor_widgets.php:177
+msgid "Title:"
+msgstr ""
+
+#: include/default_widgets.php:237 include/default_widgets.php:261
+#: include/elementor_widgets.php:517 include/elementor_widgets.php:575
+msgid "True"
+msgstr ""
+
+#: include/elementor_widgets.php:145
+msgid "Type your URL or Text here."
+msgstr ""
+
+#: include/elementor_widgets.php:124
+msgid "URL"
+msgstr ""
+
+#: include/elementor_widgets.php:367
+msgid "vCard"
+msgstr ""
+
+#: include/elementor_widgets.php:339
+msgid "Website:"
+msgstr ""
+
+#: include/elementor_widgets.php:315
+msgid "WEP"
+msgstr ""
+
+#: include/elementor_widgets.php:132
+msgid "WiFi Access"
+msgstr ""
+
+#: include/elementor_widgets.php:316
+msgid "WPA/WPA2"
+msgstr ""
