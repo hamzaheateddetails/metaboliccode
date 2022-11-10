@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.metaboliccode.com/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://www.metaboliccode.com/post-sitemap.xml</loc>
+		<lastmod>2021-03-24T14:27:14-08:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.metaboliccode.com/page-sitemap.xml</loc>
+		<lastmod>2022-09-13T08:34:07-08:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.metaboliccode.com/product-sitemap.xml</loc>
+		<lastmod>2022-09-21T05:14:17-08:00</lastmod>
+	</sitemap>
+</sitemapindex>
