@@ -1,0 +1,24 @@
+
+Jul 11, 2020 02.21.03: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 02.21.09: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 02.21.10: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.08.34: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.08.39: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.08.41: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.13.15: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.13.21: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.13.22: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.19.29: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.19.35: Cannot declare class WPF_Options, because the name is already in use
+
+Jul 11, 2020 03.19.37: Cannot declare class WPF_Options, because the name is already in use

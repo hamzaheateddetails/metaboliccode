@@ -1,0 +1,422 @@
+2022-10-09T01:55:33+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3LqojjKfkWAXhDcH13yw4iFv
+====End Log====
+
+
+2022-10-09T21:44:21+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Lr7I7KfkWAXhDcHEbwsJhCv
+====End Log====
+
+
+2022-10-09T21:44:21+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers request: Array
+(
+    [email] => kraskinmd@gmail.com
+    [description] => Name: Kenneth Raskin, Username: kraskinmd@gmail.com
+    [name] => Kenneth Raskin
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-09T21:44:22+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_MaHs3t0B9mt2mF/sources request: Array
+(
+    [source] => src_1Lr7I7KfkWAXhDcHEbwsJhCv
+)
+
+====End Log====
+
+
+2022-10-09T21:44:23+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_MaHs3t0B9mt2mF request: Array
+(
+    [email] => kraskinmd@gmail.com
+    [description] => Name: Kenneth Raskin, Username: kraskinmd@gmail.com
+    [name] => Kenneth Raskin
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-09T21:44:24+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5579 for the amount of 104.71
+====End Log====
+
+
+2022-10-09T21:44:24+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Lr7I7KfkWAXhDcHEbwsJhCv
+    [amount] => 10471
+    [currency] => usd
+    [description] => Metabolic Code - Order 751
+    [metadata] => Array
+        (
+            [customer_name] => Kenneth Raskin
+            [customer_email] => kraskinmd@gmail.com
+            [order_id] => 751
+            [site_url] => https://www.metaboliccode.com
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MaHs3t0B9mt2mF
+    [shipping] => Array
+        (
+            [name] => Kenneth Raskin
+            [address] => Array
+                (
+                    [line1] => 5790 Stefanie Way
+                    [line2] => 
+                    [city] => Caledonia
+                    [country] => US
+                    [postal_code] => 53108
+                    [state] => WI
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-09T21:44:24+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lr7IKKfkWAXhDcH1fHY0CWj initiated for order 5579
+====End Log====
+
+
+2022-10-09T21:44:24+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Lr7IKKfkWAXhDcH1fHY0CWj/confirm request: Array
+(
+    [source] => src_1Lr7I7KfkWAXhDcHEbwsJhCv
+    [level3] => Array
+        (
+            [merchant_reference] => 5579
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3416
+                            [product_description] => Clarify 4.0
+                            [unit_cost] => 2399
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 53108
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-09T21:44:27+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lr7IKKfkWAXhDcH1fHY0CWj succeeded for order 5579
+====End Log====
+
+
+2022-10-09T21:44:27+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Lr7I7KfkWAXhDcHEbwsJhCv
+====End Log====
+
+
+2022-10-09T21:44:27+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_MaHs3t0B9mt2mF request: Array
+(
+    [default_source] => src_1Lr7I7KfkWAXhDcHEbwsJhCv
+)
+
+====End Log====
+
+
+2022-10-09T21:44:28+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lr7IKKfkWAXhDcH171FQ6qD
+    [object] => charge
+    [amount] => 10471
+    [amount_captured] => 10471
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lr7IKKfkWAXhDcH1TnAPzqP
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Caledonia
+                    [country] => US
+                    [line1] => 5790 Stefanie Way
+                    [line2] => 
+                    [postal_code] => 53108
+                    [state] => WI
+                )
+
+            [email] => kraskinmd@gmail.com
+            [name] => Kenneth Raskin
+            [phone] => 2629941818
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665351865
+    [currency] => usd
+    [customer] => cus_MaHs3t0B9mt2mF
+    [description] => Metabolic Code - Order 751
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3416
+                            [product_description] => Clarify 4.0
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [unit_cost] => 2399
+                        )
+
+                )
+
+            [merchant_reference] => 5579
+            [shipping_address_zip] => 53108
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => kraskinmd@gmail.com
+            [customer_name] => Kenneth Raskin
+            [order_id] => 751
+            [save_payment_method] => true
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lr7IKKfkWAXhDcH1fHY0CWj
+    [payment_method] => src_1Lr7I7KfkWAXhDcHEbwsJhCv
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2025
+                    [fingerprint] => PO9vH2EV2jigMYqU
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4198
+                    [mandate] => 
+                    [network] => mastercard
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => kraskinmd@gmail.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gou4GNmgYyBhQfWCHIFTosFkTYmB-VcxO3veid_4C8qICUS-3wrHZ4tyfq9gfahu3EAc0oRZglogeb-PE
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lr7IKKfkWAXhDcH171FQ6qD/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Caledonia
+                    [country] => US
+                    [line1] => 5790 Stefanie Way
+                    [line2] => 
+                    [postal_code] => 53108
+                    [state] => WI
+                )
+
+            [carrier] => 
+            [name] => Kenneth Raskin
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Lr7I7KfkWAXhDcHEbwsJhCv
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => MasterCard
+                    [country] => US
+                    [cvc_check] => pass
+                    [dynamic_last4] => 
+                    [exp_month] => 2
+                    [exp_year] => 2025
+                    [fingerprint] => PO9vH2EV2jigMYqU
+                    [funding] => credit
+                    [last4] => 4198
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_az1eWeM46o977xf9z8ol9Rlu
+            [created] => 1665351866
+            [currency] => 
+            [customer] => cus_MaHs3t0B9mt2mF
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Caledonia
+                            [country] => US
+                            [line1] => 5790 Stefanie Way
+                            [line2] => 
+                            [postal_code] => 53108
+                            [state] => WI
+                        )
+
+                    [email] => kraskinmd@gmail.com
+                    [name] => Kenneth Raskin
+                    [phone] => 2629941818
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-09T21:44:28+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3Lr7IKKfkWAXhDcH1TnAPzqP
+====End Log====
+
+

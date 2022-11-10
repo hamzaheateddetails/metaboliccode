@@ -1,0 +1,258 @@
+10-09-2022 @ 13:44:28 - 347
+10-09-2022 @ 13:44:28 - Array
+(
+    [0] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 1938
+                    [user_login] => Emerson
+                    [user_pass] => $P$B.ZhRhsEsJnqOmIyogRudraVr5AbHF0
+                    [user_nicename] => emerson
+                    [user_email] => emerson@metaboliccode.com
+                    [user_url] => 
+                    [user_registered] => 2021-08-30 19:17:22
+                    [user_activation_key] => 1630351044:$P$BptvghPz9nR76GFsQXY49b.dXcbB4M.
+                    [user_status] => 0
+                    [display_name] => Emerson Ecologics
+                )
+
+            [ID] => 1938
+            [caps] => Array
+                (
+                    [customer] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => customer
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [customer] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+10-09-2022 @ 13:44:28 - 347
+10-09-2022 @ 13:44:28 - Array
+(
+    [0] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 1938
+                    [user_login] => Emerson
+                    [user_pass] => $P$B.ZhRhsEsJnqOmIyogRudraVr5AbHF0
+                    [user_nicename] => emerson
+                    [user_email] => emerson@metaboliccode.com
+                    [user_url] => 
+                    [user_registered] => 2021-08-30 19:17:22
+                    [user_activation_key] => 1630351044:$P$BptvghPz9nR76GFsQXY49b.dXcbB4M.
+                    [user_status] => 0
+                    [display_name] => Emerson Ecologics
+                )
+
+            [ID] => 1938
+            [caps] => Array
+                (
+                    [customer] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => customer
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [customer] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+10-09-2022 @ 13:44:29 - 347
+10-09-2022 @ 13:44:29 - Array
+(
+    [0] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 1938
+                    [user_login] => Emerson
+                    [user_pass] => $P$B.ZhRhsEsJnqOmIyogRudraVr5AbHF0
+                    [user_nicename] => emerson
+                    [user_email] => emerson@metaboliccode.com
+                    [user_url] => 
+                    [user_registered] => 2021-08-30 19:17:22
+                    [user_activation_key] => 1630351044:$P$BptvghPz9nR76GFsQXY49b.dXcbB4M.
+                    [user_status] => 0
+                    [display_name] => Emerson Ecologics
+                )
+
+            [ID] => 1938
+            [caps] => Array
+                (
+                    [customer] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => customer
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [customer] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+10-09-2022 @ 13:44:29 - 347
+10-09-2022 @ 13:44:29 - Array
+(
+    [0] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 1938
+                    [user_login] => Emerson
+                    [user_pass] => $P$B.ZhRhsEsJnqOmIyogRudraVr5AbHF0
+                    [user_nicename] => emerson
+                    [user_email] => emerson@metaboliccode.com
+                    [user_url] => 
+                    [user_registered] => 2021-08-30 19:17:22
+                    [user_activation_key] => 1630351044:$P$BptvghPz9nR76GFsQXY49b.dXcbB4M.
+                    [user_status] => 0
+                    [display_name] => Emerson Ecologics
+                )
+
+            [ID] => 1938
+            [caps] => Array
+                (
+                    [customer] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => customer
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [customer] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+10-09-2022 @ 13:44:32 - 347
+10-09-2022 @ 13:44:32 - Array
+(
+    [0] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 1938
+                    [user_login] => Emerson
+                    [user_pass] => $P$B.ZhRhsEsJnqOmIyogRudraVr5AbHF0
+                    [user_nicename] => emerson
+                    [user_email] => emerson@metaboliccode.com
+                    [user_url] => 
+                    [user_registered] => 2021-08-30 19:17:22
+                    [user_activation_key] => 1630351044:$P$BptvghPz9nR76GFsQXY49b.dXcbB4M.
+                    [user_status] => 0
+                    [display_name] => Emerson Ecologics
+                )
+
+            [ID] => 1938
+            [caps] => Array
+                (
+                    [customer] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => customer
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [customer] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+10-09-2022 @ 13:44:36 - 347
+10-09-2022 @ 13:44:36 - Array
+(
+    [0] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 1938
+                    [user_login] => Emerson
+                    [user_pass] => $P$B.ZhRhsEsJnqOmIyogRudraVr5AbHF0
+                    [user_nicename] => emerson
+                    [user_email] => emerson@metaboliccode.com
+                    [user_url] => 
+                    [user_registered] => 2021-08-30 19:17:22
+                    [user_activation_key] => 1630351044:$P$BptvghPz9nR76GFsQXY49b.dXcbB4M.
+                    [user_status] => 0
+                    [display_name] => Emerson Ecologics
+                )
+
+            [ID] => 1938
+            [caps] => Array
+                (
+                    [customer] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => customer
+                )
+
+            [allcaps] => Array
+                (
+                    [read] => 1
+                    [customer] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+

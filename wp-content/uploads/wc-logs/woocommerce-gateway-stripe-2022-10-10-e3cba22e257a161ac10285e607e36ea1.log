@@ -1,0 +1,1376 @@
+2022-10-10T13:51:29+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Beginning refund for order ch_3LenCaKfkWAXhDcH0ADOadmj for the amount of 12.12
+====End Log====
+
+
+2022-10-10T13:51:29+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LenCaKfkWAXhDcH0IiYk0jE?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T13:51:30+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+refunds request: Array
+(
+    [amount] => 1212
+    [charge] => ch_3LenCaKfkWAXhDcH0ADOadmj
+)
+
+====End Log====
+
+
+2022-10-10T13:51:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LenCaKfkWAXhDcH0JJUtQ02
+====End Log====
+
+
+2022-10-10T13:51:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Success: Refunded $12.12 - Refund ID: re_3LenCaKfkWAXhDcH0AIVVrzb - Reason:
+====End Log====
+
+
+2022-10-10T16:19:21+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3LlgeyKfkWAXhDcH054jevrD
+====End Log====
+
+
+2022-10-10T22:35:43+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3L8uc8KfkWAXhDcH1WlqCsih?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:35:49+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3L8uc8KfkWAXhDcH1WlqCsih?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:36:11+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Lno19KfkWAXhDcH1aHbqT9d?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:36:15+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LXsSrKfkWAXhDcH12iF4T4b?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:36:18+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Lno19KfkWAXhDcH1aHbqT9d?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:36:22+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LXsSrKfkWAXhDcH12iF4T4b?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:36:51+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3L8uc8KfkWAXhDcH1WlqCsih?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:36:55+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3L8uc8KfkWAXhDcH1WlqCsih?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:37:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_Kn6MVMTKG5zazW/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-10T22:38:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_Kn6MVMTKG5zazW request: Array
+(
+    [email] => office@allseasonsfhc.com
+    [description] => Name: Ellen Lentz, Username: AllseasonsFHC907
+    [name] => Ellen Lentz
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T22:38:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1K7WA7KfkWAXhDcHM2h0VKZW
+====End Log====
+
+
+2022-10-10T22:38:58+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5581 for the amount of 769.55
+====End Log====
+
+
+2022-10-10T22:38:58+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1K7WA7KfkWAXhDcHM2h0VKZW
+    [amount] => 76955
+    [currency] => usd
+    [description] => Metabolic Code - Order 752
+    [metadata] => Array
+        (
+            [customer_name] => Ellen Lentz
+            [customer_email] => office@allseasonsfhc.com
+            [order_id] => 752
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_Kn6MVMTKG5zazW
+    [shipping] => Array
+        (
+            [name] => Ellen Lentz
+            [address] => Array
+                (
+                    [line1] => 5461 E MAYFLOWER LN STE 4
+                    [line2] => 
+                    [city] => WASILLA
+                    [country] => US
+                    [postal_code] => 99654
+                    [state] => AK
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T22:38:58+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LrUcgKfkWAXhDcH0QlD25A7 initiated for order 5581
+====End Log====
+
+
+2022-10-10T22:38:58+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LrUcgKfkWAXhDcH0QlD25A7/confirm request: Array
+(
+    [source] => src_1K7WA7KfkWAXhDcHM2h0VKZW
+    [level3] => Array
+        (
+            [merchant_reference] => 5581
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [unit_cost] => 2536
+                            [quantity] => 30
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 99654
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T22:39:00+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LrUcgKfkWAXhDcH0QlD25A7 succeeded for order 5581
+====End Log====
+
+
+2022-10-10T22:39:00+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LrUcgKfkWAXhDcH0GL9vULj
+    [object] => charge
+    [amount] => 76955
+    [amount_captured] => 76955
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LrUcgKfkWAXhDcH0fqAuS6F
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => WASILLA
+                    [country] => US
+                    [line1] => 5461 E MAYFLOWER LN STE 4
+                    [line2] => 
+                    [postal_code] => 99654
+                    [state] => AK
+                )
+
+            [email] => office@allseasonsfhc.com
+            [name] => Ellen Lentz
+            [phone] => 19073764644
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665441539
+    [currency] => usd
+    [customer] => cus_Kn6MVMTKG5zazW
+    [description] => Metabolic Code - Order 752
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [quantity] => 30
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                )
+
+            [merchant_reference] => 5581
+            [shipping_address_zip] => 99654
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => office@allseasonsfhc.com
+            [customer_name] => Ellen Lentz
+            [order_id] => 752
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LrUcgKfkWAXhDcH0QlD25A7
+    [payment_method] => src_1K7WA7KfkWAXhDcHM2h0VKZW
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => fail
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 6
+                    [exp_year] => 2025
+                    [fingerprint] => KpGgigHyBsgecMaE
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 3437
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => office@allseasonsfhc.com
+    [receipt_number] => 1193-3404
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gohL6SmgYyBlu_AxYNLDosFi83_GfO4y2tlQDKHArXbzfEfcVcGHyKqKUASs1iBdRTC9_vyntipEwdDjM
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LrUcgKfkWAXhDcH0GL9vULj/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => WASILLA
+                    [country] => US
+                    [line1] => 5461 E MAYFLOWER LN STE 4
+                    [line2] => 
+                    [postal_code] => 99654
+                    [state] => AK
+                )
+
+            [carrier] => 
+            [name] => Ellen Lentz
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1K7WA7KfkWAXhDcHM2h0VKZW
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => fail
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 6
+                    [exp_year] => 2025
+                    [fingerprint] => KpGgigHyBsgecMaE
+                    [funding] => credit
+                    [last4] => 3437
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_6ekszD0E3TKXDY1fxqjNarIo
+            [created] => 1665441540
+            [currency] => 
+            [customer] => cus_Kn6MVMTKG5zazW
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => WASILLA
+                            [country] => US
+                            [line1] => 5461 E MAYFLOWER LN STE 4
+                            [line2] => 
+                            [postal_code] => 99654
+                            [state] => AK
+                        )
+
+                    [email] => office@allseasonsfhc.com
+                    [name] => Ellen Lentz
+                    [phone] => 19073764644
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-10T22:39:00+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LrUcgKfkWAXhDcH0fqAuS6F
+====End Log====
+
+
+2022-10-10T22:39:54+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LqOl9KfkWAXhDcH0t8ki9pt?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:39:59+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LqOl9KfkWAXhDcH0t8ki9pt?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:41:26+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3L8uc8KfkWAXhDcH1WlqCsih?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-10T22:44:19+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-10T22:45:46+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T22:45:47+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-10T22:45:47+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5582 for the amount of 192.92
+====End Log====
+
+
+2022-10-10T22:45:47+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 19292
+    [currency] => usd
+    [description] => Metabolic Code - Order 753
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 753
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Jean Burka
+            [address] => Array
+                (
+                    [line1] => 1125 10th Ave N 313
+                    [line2] => 
+                    [city] => Nashville
+                    [country] => US
+                    [postal_code] => 37208
+                    [state] => TN
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T22:45:47+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LrUjHKfkWAXhDcH0bKcrobp initiated for order 5582
+====End Log====
+
+
+2022-10-10T22:45:48+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LrUjHKfkWAXhDcH0bKcrobp/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5582
+            [shipping_amount] => 2413
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2556
+                            [product_description] => Selenometh-Iodine
+                            [unit_cost] => 1212
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 3597
+                            [product_description] => HemePlex
+                            [unit_cost] => 1169
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2743
+                            [product_description] => Eco Liver
+                            [unit_cost] => 1550
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [unit_cost] => 1680
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [product_code] => 2691
+                            [product_description] => Nitric Oxide Accelerator
+                            [unit_cost] => 2778
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 37208
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T22:45:50+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LrUjHKfkWAXhDcH0bKcrobp succeeded for order 5582
+====End Log====
+
+
+2022-10-10T22:45:50+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LrUjHKfkWAXhDcH0BAnBL0Y
+    [object] => charge
+    [amount] => 19292
+    [amount_captured] => 19292
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LrUjHKfkWAXhDcH09zlSo9A
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665441948
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 753
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2556
+                            [product_description] => Selenometh-Iodine
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 1212
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3597
+                            [product_description] => HemePlex
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1169
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2743
+                            [product_description] => Eco Liver
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1550
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1680
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2691
+                            [product_description] => Nitric Oxide Accelerator
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2778
+                        )
+
+                )
+
+            [merchant_reference] => 5582
+            [shipping_address_zip] => 37208
+            [shipping_amount] => 2413
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 753
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LrUjHKfkWAXhDcH0bKcrobp
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gonsGSmgYyBhAaaxiCqjosFguofowFhcd198E9HrhUbaYiRstkUmHw-sXYiS_pKN74B6EtrIENQoLWpLw
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LrUjHKfkWAXhDcH0BAnBL0Y/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Nashville
+                    [country] => US
+                    [line1] => 1125 10th Ave N 313
+                    [line2] => 
+                    [postal_code] => 37208
+                    [state] => TN
+                )
+
+            [carrier] => 
+            [name] => Jean Burka
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1665441949
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-10T22:45:50+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LrUjHKfkWAXhDcH09zlSo9A
+====End Log====
+
+
+2022-10-10T23:56:16+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-10T23:56:48+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T23:56:48+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-10T23:56:49+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5583 for the amount of 26.42
+====End Log====
+
+
+2022-10-10T23:56:49+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 2642
+    [currency] => usd
+    [description] => Metabolic Code - Order 754
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 754
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Dawn Steirn
+            [address] => Array
+                (
+                    [line1] => 2521 Montclaire Circle
+                    [line2] => 
+                    [city] => Weston
+                    [country] => US
+                    [postal_code] => 33327
+                    [state] => FL
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T23:56:49+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LrVq1KfkWAXhDcH1HQTAWez initiated for order 5583
+====End Log====
+
+
+2022-10-10T23:56:49+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LrVq1KfkWAXhDcH1HQTAWez/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5583
+            [shipping_amount] => 218
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2556
+                            [product_description] => Selenometh-Iodine
+                            [unit_cost] => 1212
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 33327
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-10T23:56:52+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LrVq1KfkWAXhDcH1HQTAWez succeeded for order 5583
+====End Log====
+
+
+2022-10-10T23:56:52+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LrVq1KfkWAXhDcH173788j7
+    [object] => charge
+    [amount] => 2642
+    [amount_captured] => 2642
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LrVq1KfkWAXhDcH1TphgBGj
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665446210
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 754
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2556
+                            [product_description] => Selenometh-Iodine
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 1212
+                        )
+
+                )
+
+            [merchant_reference] => 5583
+            [shipping_address_zip] => 33327
+            [shipping_amount] => 218
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 754
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LrVq1KfkWAXhDcH1HQTAWez
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 1513-8751
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0goxOKSmgYyBke1aztORjosFlwg1XKHTtPKYLWi1u42dumqdJLKmGemfWpZQvKuUcA3H2hs0RcbiKZNEeI
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LrVq1KfkWAXhDcH173788j7/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Weston
+                    [country] => US
+                    [line1] => 2521 Montclaire Circle
+                    [line2] => 
+                    [postal_code] => 33327
+                    [state] => FL
+                )
+
+            [carrier] => 
+            [name] => Dawn Steirn
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1665446211
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-10T23:56:52+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LrVq1KfkWAXhDcH1TphgBGj
+====End Log====
+
+

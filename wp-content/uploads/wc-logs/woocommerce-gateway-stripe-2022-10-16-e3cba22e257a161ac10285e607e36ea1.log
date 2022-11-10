@@ -1,0 +1,911 @@
+2022-10-16T05:01:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3LtOyZKfkWAXhDcH1gmBHH5z
+====End Log====
+
+
+2022-10-16T19:45:24+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-16T19:46:27+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-16T19:46:28+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-16T19:46:28+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5588 for the amount of 276.76
+====End Log====
+
+
+2022-10-16T19:46:28+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 27676
+    [currency] => usd
+    [description] => Metabolic Code - Order 759
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 759
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Paulina Kozycz
+            [address] => Array
+                (
+                    [line1] => 1525 26th Ave N
+                    [line2] => 
+                    [city] => St. Petersburg
+                    [country] => US
+                    [postal_code] => 33704
+                    [state] => FL
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-16T19:46:29+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Ltcn2KfkWAXhDcH1urXi2ep initiated for order 5588
+====End Log====
+
+
+2022-10-16T19:46:29+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Ltcn2KfkWAXhDcH1urXi2ep/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5588
+            [shipping_amount] => 999
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2700
+                            [product_description] => O-Mega 800
+                            [unit_cost] => 3775
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2556
+                            [product_description] => Selenometh-Iodine
+                            [unit_cost] => 1212
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [unit_cost] => 1680
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [product_code] => 2748
+                            [product_description] => ALA Forté
+                            [unit_cost] => 1880
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [product_code] => 2713
+                            [product_description] => S-Acetyl Glutathione
+                            [unit_cost] => 3500
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 33704
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-16T19:46:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Ltcn2KfkWAXhDcH1urXi2ep succeeded for order 5588
+====End Log====
+
+
+2022-10-16T19:46:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Ltcn2KfkWAXhDcH1CZEvUiP
+    [object] => charge
+    [amount] => 27676
+    [amount_captured] => 27676
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Ltcn2KfkWAXhDcH19RKS4nG
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665949589
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 759
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2700
+                            [product_description] => O-Mega 800
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3775
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2556
+                            [product_description] => Selenometh-Iodine
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1212
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1680
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2748
+                            [product_description] => ALA Forté
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 1880
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2713
+                            [product_description] => S-Acetyl Glutathione
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [unit_cost] => 3500
+                        )
+
+                )
+
+            [merchant_reference] => 5588
+            [shipping_address_zip] => 33704
+            [shipping_amount] => 999
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 759
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Ltcn2KfkWAXhDcH1urXi2ep
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 1654-3882
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gol7-xmgYyBmBMdoa_BDosFrEOKpMHgKbo-n8zTCvaX-PI6Cop7ewBGGuLNaGDZSfwO68q6Rq1FDa8ee0
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Ltcn2KfkWAXhDcH1CZEvUiP/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => St. Petersburg
+                    [country] => US
+                    [line1] => 1525 26th Ave N
+                    [line2] => 
+                    [postal_code] => 33704
+                    [state] => FL
+                )
+
+            [carrier] => 
+            [name] => Paulina Kozycz
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1665949591
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-16T19:46:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3Ltcn2KfkWAXhDcH19RKS4nG
+====End Log====
+
+
+2022-10-16T20:25:10+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-16T20:27:29+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-16T20:27:30+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-16T20:27:30+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5589 for the amount of 203.19
+====End Log====
+
+
+2022-10-16T20:27:30+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 20319
+    [currency] => usd
+    [description] => Metabolic Code - Order 760
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 760
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Selina Delangre
+            [address] => Array
+                (
+                    [line1] => 198 Two Brooks Trail
+                    [line2] => 
+                    [city] => Fletcher
+                    [country] => US
+                    [postal_code] => 28732
+                    [state] => NC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-16T20:27:30+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LtdQkKfkWAXhDcH1T343Vt4 initiated for order 5589
+====End Log====
+
+
+2022-10-16T20:27:30+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LtdQkKfkWAXhDcH1T343Vt4/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5589
+            [shipping_amount] => 1502
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [unit_cost] => 3401
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [unit_cost] => 2536
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 4242
+                            [product_description] => GI Mucosal Support
+                            [unit_cost] => 4750
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2688
+                            [product_description] => Pon 1 Assist
+                            [unit_cost] => 2797
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 28732
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-16T20:27:33+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LtdQkKfkWAXhDcH1T343Vt4 succeeded for order 5589
+====End Log====
+
+
+2022-10-16T20:27:33+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LtdQkKfkWAXhDcH1TwMXinM
+    [object] => charge
+    [amount] => 20319
+    [amount_captured] => 20319
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LtdQkKfkWAXhDcH14ruL16k
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665952051
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 760
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3401
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 4242
+                            [product_description] => GI Mucosal Support
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 4750
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2688
+                            [product_description] => Pon 1 Assist
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2797
+                        )
+
+                )
+
+            [merchant_reference] => 5589
+            [shipping_address_zip] => 28732
+            [shipping_amount] => 1502
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 760
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LtdQkKfkWAXhDcH1T343Vt4
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 1630-1093
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gotdKxmgYyBjqb_-2xHzosFspLCI08rz73bXiqBxyBW-V3_k8nkxEty_4fhCadMNqAN3amDGamcYH1gb0
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LtdQkKfkWAXhDcH1TwMXinM/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Fletcher
+                    [country] => US
+                    [line1] => 198 Two Brooks Trail
+                    [line2] => 
+                    [postal_code] => 28732
+                    [state] => NC
+                )
+
+            [carrier] => 
+            [name] => Selina Delangre
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1665952052
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-16T20:27:33+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LtdQkKfkWAXhDcH14ruL16k
+====End Log====
+
+

@@ -1,0 +1,393 @@
+2022-11-02T02:44:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3LzWwfKfkWAXhDcH1KtdHn4c
+====End Log====
+
+
+2022-11-02T13:02:36+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3LzgaQKfkWAXhDcH0NV9h1tw
+====End Log====
+
+
+2022-11-02T18:20:52+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MB7sNmobTs5x8Q/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-11-02T18:21:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MB7sNmobTs5x8Q request: Array
+(
+    [email] => devansachs@gmail.com
+    [description] => Name: Devan Sachs, Username: drdevan
+    [name] => Devan Sachs
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-11-02T18:21:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1LSlcuKfkWAXhDcHmqpemOFe
+====End Log====
+
+
+2022-11-02T18:21:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5622 for the amount of 79.43
+====End Log====
+
+
+2022-11-02T18:21:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LSlcuKfkWAXhDcHmqpemOFe
+    [amount] => 7943
+    [currency] => usd
+    [description] => Metabolic Code - Order 786
+    [metadata] => Array
+        (
+            [customer_name] => Devan Sachs
+            [customer_email] => devansachs@gmail.com
+            [order_id] => 786
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MB7sNmobTs5x8Q
+    [shipping] => Array
+        (
+            [name] => Devan Sachs
+            [address] => Array
+                (
+                    [line1] => 1566 W Plum Creek Dr
+                    [line2] => 
+                    [city] => West Jordan
+                    [country] => US
+                    [postal_code] => 84088
+                    [state] => UT
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-11-02T18:21:22+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LzlZ0KfkWAXhDcH0qIu7lzl initiated for order 5622
+====End Log====
+
+
+2022-11-02T18:21:22+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LzlZ0KfkWAXhDcH0qIu7lzl/confirm request: Array
+(
+    [source] => src_1LSlcuKfkWAXhDcHmqpemOFe
+    [level3] => Array
+        (
+            [merchant_reference] => 5622
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [unit_cost] => 3534
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 84088
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-11-02T18:21:24+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LzlZ0KfkWAXhDcH0qIu7lzl succeeded for order 5622
+====End Log====
+
+
+2022-11-02T18:21:24+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LzlZ0KfkWAXhDcH0kDy7AvZ
+    [object] => charge
+    [amount] => 7943
+    [amount_captured] => 7943
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LzlZ0KfkWAXhDcH0wUXzQTb
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => West Jordan
+                    [country] => US
+                    [line1] => 1566 W Plum Creek Dr
+                    [line2] => 
+                    [postal_code] => 84088
+                    [state] => UT
+                )
+
+            [email] => devansachs@gmail.com
+            [name] => Devan Sachs
+            [phone] => 6085753242
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667413283
+    [currency] => usd
+    [customer] => cus_MB7sNmobTs5x8Q
+    [description] => Metabolic Code - Order 786
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 3534
+                        )
+
+                )
+
+            [merchant_reference] => 5622
+            [shipping_address_zip] => 84088
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => devansachs@gmail.com
+            [customer_name] => Devan Sachs
+            [order_id] => 786
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LzlZ0KfkWAXhDcH0qIu7lzl
+    [payment_method] => src_1LSlcuKfkWAXhDcHmqpemOFe
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 1
+                    [exp_year] => 2027
+                    [fingerprint] => j1jxYggWgLB0hHvK
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 9419
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => devansachs@gmail.com
+    [receipt_number] => 1566-2105
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gopOqKmwYyBgG7NLVDjzosFp9WthedHGEqygUWQKdYOV6xmZ2GnBb5AxtgQDnwJrgD2euDFeHCdL1SJtw
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LzlZ0KfkWAXhDcH0kDy7AvZ/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => West Jordan
+                    [country] => US
+                    [line1] => 1566 W Plum Creek Dr
+                    [line2] => 
+                    [postal_code] => 84088
+                    [state] => UT
+                )
+
+            [carrier] => 
+            [name] => Devan Sachs
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LSlcuKfkWAXhDcHmqpemOFe
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 1
+                    [exp_year] => 2027
+                    [fingerprint] => j1jxYggWgLB0hHvK
+                    [funding] => credit
+                    [last4] => 9419
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_9YZnK8MftmXNoReHDFpq3syZ
+            [created] => 1667413283
+            [currency] => 
+            [customer] => cus_MB7sNmobTs5x8Q
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => West Jordan
+                            [country] => US
+                            [line1] => 1566 W Plum Creek Dr
+                            [line2] => 
+                            [postal_code] => 84088
+                            [state] => UT
+                        )
+
+                    [email] => devansachs@gmail.com
+                    [name] => Devan Sachs
+                    [phone] => 6085753242
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-11-02T18:21:24+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LzlZ0KfkWAXhDcH0wUXzQTb
+====End Log====
+
+
+2022-11-02T23:57:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3LzqnlKfkWAXhDcH02y05InV
+====End Log====
+
+

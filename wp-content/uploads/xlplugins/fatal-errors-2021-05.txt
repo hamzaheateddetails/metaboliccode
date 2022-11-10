@@ -1,0 +1,76 @@
+
+May 19, 2021 15.50.15: Uncaught Error: Class 'OM4\WooCommerceZapier\WooCommerceResource\Customer\ResourceDefinition' not found in /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/ContainerService.php:205
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/Vendor/League/Container/Definition/CallableDefinition.php(17): OM4\WooCommerceZapier\ContainerService->OM4\WooCommerceZapier\{closure}()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/Vendor/League/Container/Container.php(237): OM4\WooCommerceZapier\Vendor\League\Container\Definition\CallableDefinition->build(Array)
+#2 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/Vendor/League/Container/Container.php(65): OM4\WooCommerceZapier\Vendor\League\Container\Container->getFromThisContainer('OM4\\WooCommerce...', Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/ContainerService.php(512): OM4\WooCommerceZapier\Vendor\League\Container\Contain
+
+May 19, 2021 15.50.22: Uncaught Error: Class 'OM4\WooCommerceZapier\WooCommerceResource\Customer\ResourceDefinition' not found in /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/ContainerService.php:205
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/Vendor/League/Container/Definition/CallableDefinition.php(17): OM4\WooCommerceZapier\ContainerService->OM4\WooCommerceZapier\{closure}()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/Vendor/League/Container/Container.php(237): OM4\WooCommerceZapier\Vendor\League\Container\Definition\CallableDefinition->build(Array)
+#2 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/Vendor/League/Container/Container.php(65): OM4\WooCommerceZapier\Vendor\League\Container\Container->getFromThisContainer('OM4\\WooCommerce...', Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-zapier/src/ContainerService.php(512): OM4\WooCommerceZapier\Vendor\League\Container\Contain
+
+May 19, 2021 15.51.44: Uncaught Error: Class 'DynamicContentForElementor\Extensions\DCE_Extension_Visibility' not found in /nas/content/live/metabolicpro/wp-content/plugins/dynamic-visibility-for-elementor/plugin.php:94
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): DynamicContentForElementor\Plugin_DVE->dve_elementor_init('')
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/plugin.php(547): do_action('elementor/init')
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Elementor\Plugin->init('')
+#5 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /nas/content/live/metabolicpro/wp-settings.php(560): do_action('init')
+#8 /
+
+May 19, 2021 15.52.36: Uncaught Error: Class 'WP_Rocket\Engine\Container\Container' not found in /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/main.php:46
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): rocket_init('')
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-settings.php(423): do_action('plugins_loaded')
+#4 /nas/content/live/metabolicpro/wp-config.php(127): require_once('/nas/content/li...')
+#5 /nas/content/live/metabolicpro/wp-load.php(37): require_once('/nas/content/li...')
+#6 /nas/content/live/metabolicpro/wp-admin/admin.php(34): require_once('/nas/content/li...')
+#7 /nas/content/live/metabolicpro/wp-admin/plugins.php(10): require_once('/nas/content/li...')
+#8 {main}
+  thrown
+
+May 19, 2021 15.52.36: Uncaught Error: Class 'WP_Rocket\Engine\Container\Container' not found in /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/main.php:46
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): rocket_init('')
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-settings.php(423): do_action('plugins_loaded')
+#4 /nas/content/live/metabolicpro/wp-config.php(127): require_once('/nas/content/li...')
+#5 /nas/content/live/metabolicpro/wp-load.php(37): require_once('/nas/content/li...')
+#6 /nas/content/live/metabolicpro/wp-blog-header.php(13): require_once('/nas/content/li...')
+#7 /nas/content/live/metabolicpro/index.php(17): require('/nas/content/li...')
+#8 {main}
+  thrown
+
+May 19, 2021 15.52.37: Uncaught Error: Class 'WP_Rocket\Engine\Container\Container' not found in /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/main.php:46
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): rocket_init('')
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-settings.php(423): do_action('plugins_loaded')
+#4 /nas/content/live/metabolicpro/wp-config.php(127): require_once('/nas/content/li...')
+#5 /nas/content/live/metabolicpro/wp-load.php(37): require_once('/nas/content/li...')
+#6 /nas/content/live/metabolicpro/wp-blog-header.php(13): require_once('/nas/content/li...')
+#7 /nas/content/live/metabolicpro/index.php(17): require('/nas/content/li...')
+#8 {main}
+  thrown
+
+May 22, 2021 19.52.01: Uncaught Error: Class 'pluggable\product\stdClass' not found in /nas/content/live/metabolicpro/wp-content/plugins/woolementor-pro/vendor/pluggable/product/src/Update.php:116
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(294): pluggable\product\Update->check_update(NULL)
+#1 /nas/content/live/metabolicpro/wp-includes/plugin.php(212): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/option.php(1931): apply_filters('pre_set_site_tr...', NULL, 'update_plugins')
+#3 /nas/content/live/metabolicpro/wp-content/plugins/jet-blog/includes/modules/jet-dashboard/inc/data-manager.php(213): set_site_transient('update_plugins', NULL)
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Jet_Dashboard\Data_Manager->jet_dashboard_debug_action('')
+#5 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /nas/conten

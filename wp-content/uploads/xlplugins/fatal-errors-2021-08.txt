@@ -1,0 +1,62 @@
+
+Aug 04, 2021 05.42.53: Uncaught Error: Class 'Jet_Engine_Dynamic_Tags_Module' not found in /nas/content/live/metabolicpro/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Jet_Engine\Modules\Dynamic_Visibility\Settings->add_visibility_settings(Object(Elementor\Element_Section), Array)
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1462): do_action('elementor/eleme...', Object(Elementor\Element_Section), Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/elements/section.php(1249): Elementor\Controls_Stack->end_controls_section()
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1953): Elementor\Element
+
+Aug 04, 2021 05.53.35: Uncaught Error: Class 'Jet_Engine_Dynamic_Tags_Module' not found in /nas/content/live/metabolicpro/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Jet_Engine\Modules\Dynamic_Visibility\Settings->add_visibility_settings(Object(Elementor\Element_Section), Array)
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1462): do_action('elementor/eleme...', Object(Elementor\Element_Section), Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/elements/section.php(1249): Elementor\Controls_Stack->end_controls_section()
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1953): Elementor\Element
+
+Aug 04, 2021 05.55.40: Uncaught Error: Class 'DynamicOOOS\Puc_v4p11_Metadata' not found in /nas/content/live/metabolicpro/wp-content/plugins/dynamic-content-for-elementor/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p11/Plugin/Info.php:13
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/dynamic-content-for-elementor/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p11/Autoloader.php(57): include()
+#1 [internal function]: Puc_v4p11_Autoloader->autoload('Puc_v4p11_Plugi...')
+#2 /nas/content/live/metabolicpro/wp-content/plugins/dynamic-content-for-elementor/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p11/UpdateChecker.php(681): spl_autoload_call('Puc_v4p11_Plugi...')
+#3 /nas/content/live/metabolicpro/wp-content/plugins/dynamic-content-for-elementor/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p11/Plugin/UpdateChecker.php(130): Puc_v4p11_UpdateChecker->requestMetadata('\\Puc_v4p11_Plug...', 'request_info', Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/dynamic-content-for-elementor/vendor/yahnis-e
+
+Aug 05, 2021 21.19.24: Uncaught Error: Class 'Jet_Engine_Dynamic_Tags_Module' not found in /nas/content/live/metabolicpro/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Jet_Engine\Modules\Dynamic_Visibility\Settings->add_visibility_settings(Object(Elementor\Element_Section), Array)
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1462): do_action('elementor/eleme...', Object(Elementor\Element_Section), Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/elements/section.php(1249): Elementor\Controls_Stack->end_controls_section()
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1953): Elementor\Element
+
+Aug 05, 2021 21.23.55: Uncaught Error: Class 'Jet_Engine_Dynamic_Tags_Module' not found in /nas/content/live/metabolicpro/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Jet_Engine\Modules\Dynamic_Visibility\Settings->add_visibility_settings(Object(Elementor\Element_Section), Array)
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1462): do_action('elementor/eleme...', Object(Elementor\Element_Section), Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/elements/section.php(1249): Elementor\Controls_Stack->end_controls_section()
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1953): Elementor\Element
+
+Aug 05, 2021 22.09.29: Uncaught Error: Class 'Jet_Engine_Dynamic_Tags_Module' not found in /nas/content/live/metabolicpro/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Jet_Engine\Modules\Dynamic_Visibility\Settings->add_visibility_settings(Object(Elementor\Element_Section), Array)
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1462): do_action('elementor/eleme...', Object(Elementor\Element_Section), Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/elements/section.php(1249): Elementor\Controls_Stack->end_controls_section()
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1953): Elementor\Element
+
+Aug 09, 2021 15.03.02: Uncaught Error: Class 'Jet_Engine_Dynamic_Tags_Module' not found in /nas/content/live/metabolicpro/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(303): Jet_Engine\Modules\Dynamic_Visibility\Settings->add_visibility_settings(Object(Elementor\Element_Section), Array)
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1462): do_action('elementor/eleme...', Object(Elementor\Element_Section), Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/elements/section.php(1249): Elementor\Controls_Stack->end_controls_section()
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(1953): Elementor\Element

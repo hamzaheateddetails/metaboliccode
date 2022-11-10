@@ -1,0 +1,2015 @@
+2022-10-31T03:35:28+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LfrUzKfkWAXhDcH0kb9PIYY?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-31T03:36:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_M5y9ZznGWq2Xq5/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-31T03:37:01+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_M5y9ZznGWq2Xq5 request: Array
+(
+    [email] => vickysokol@yahoo.com
+    [description] => Name: Viktorya Sokol, Username: vsokol
+    [name] => Viktorya Sokol
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T03:37:01+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1LNmD0KfkWAXhDcHPJrhdZ0A
+====End Log====
+
+
+2022-10-31T03:37:01+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5614 for the amount of 48.51
+====End Log====
+
+
+2022-10-31T03:37:01+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LNmD0KfkWAXhDcHPJrhdZ0A
+    [amount] => 4851
+    [currency] => usd
+    [description] => Metabolic Code - Order 780
+    [metadata] => Array
+        (
+            [customer_name] => Viktorya Sokol
+            [customer_email] => vickysokol@yahoo.com
+            [order_id] => 780
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_M5y9ZznGWq2Xq5
+    [shipping] => Array
+        (
+            [name] => Viktorya Sokol
+            [address] => Array
+                (
+                    [line1] => 560 Helen Dr
+                    [line2] => 
+                    [city] => Northbrook
+                    [country] => US
+                    [postal_code] => 60062
+                    [state] => IL
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T03:37:02+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lyoo6KfkWAXhDcH1yT3nzOH initiated for order 5614
+====End Log====
+
+
+2022-10-31T03:37:02+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lyoo6KfkWAXhDcH1yT3nzOH/confirm request: Array
+(
+    [source] => src_1LNmD0KfkWAXhDcHPJrhdZ0A
+    [level3] => Array
+        (
+            [merchant_reference] => 5614
+            [shipping_amount] => 401
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2527
+                            [product_description] => Adrenal Complex
+                            [unit_cost] => 2200
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2530
+                            [product_description] => Adrenal Cortex Extract
+                            [unit_cost] => 2250
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 60062
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T03:37:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lyoo6KfkWAXhDcH1yT3nzOH succeeded for order 5614
+====End Log====
+
+
+2022-10-31T03:37:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lyoo6KfkWAXhDcH1JTtCjh3
+    [object] => charge
+    [amount] => 4851
+    [amount_captured] => 4851
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lyoo6KfkWAXhDcH1dondIvS
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Northbrook
+                    [country] => US
+                    [line1] => 560 Helen Dr
+                    [line2] => 
+                    [postal_code] => 60062
+                    [state] => IL
+                )
+
+            [email] => vickysokol@yahoo.com
+            [name] => Viktorya Sokol
+            [phone] => 8478676900
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667187423
+    [currency] => usd
+    [customer] => cus_M5y9ZznGWq2Xq5
+    [description] => Metabolic Code - Order 780
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2527
+                            [product_description] => Adrenal Complex
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2200
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2530
+                            [product_description] => Adrenal Cortex Extract
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                )
+
+            [merchant_reference] => 5614
+            [shipping_address_zip] => 60062
+            [shipping_amount] => 401
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => vickysokol@yahoo.com
+            [customer_name] => Viktorya Sokol
+            [order_id] => 780
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lyoo6KfkWAXhDcH1yT3nzOH
+    [payment_method] => src_1LNmD0KfkWAXhDcHPJrhdZ0A
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 7
+                    [exp_year] => 2027
+                    [fingerprint] => 1s2MEsA5YtyX42JJ
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4540
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => vickysokol@yahoo.com
+    [receipt_number] => 1416-9224
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go4IX9mgYyBiXZFf2-jDosFru9TbF4PhJVFcWj2h_V6oy1rJXUXSThaW8-483aV_0-TPbfTVwvD4hQPvg
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lyoo6KfkWAXhDcH1JTtCjh3/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Northbrook
+                    [country] => US
+                    [line1] => 560 Helen Dr
+                    [line2] => 
+                    [postal_code] => 60062
+                    [state] => IL
+                )
+
+            [carrier] => 
+            [name] => Viktorya Sokol
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LNmD0KfkWAXhDcHPJrhdZ0A
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 7
+                    [exp_year] => 2027
+                    [fingerprint] => 1s2MEsA5YtyX42JJ
+                    [funding] => credit
+                    [last4] => 4540
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_b02WosyQGv1Vc3X7fvhF0Srf
+            [created] => 1667187423
+            [currency] => 
+            [customer] => cus_M5y9ZznGWq2Xq5
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Northbrook
+                            [country] => US
+                            [line1] => 560 Helen Dr
+                            [line2] => 
+                            [postal_code] => 60062
+                            [state] => IL
+                        )
+
+                    [email] => vickysokol@yahoo.com
+                    [name] => Viktorya Sokol
+                    [phone] => 8478676900
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-31T03:37:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lyoo6KfkWAXhDcH1dondIvS
+====End Log====
+
+
+2022-10-31T13:11:29+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers request: Array
+(
+    [email] => susan@thewaeclinic.com
+    [description] => Name: Susan Prather, Username: Susan.Prather
+    [name] => Susan Prather
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T13:11:29+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MiOZL40XLIRYG3/sources request: Array
+(
+    [source] => src_1Lyxm0KfkWAXhDcHItXCKttq
+)
+
+====End Log====
+
+
+2022-10-31T13:11:30+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+setup_intents request: Array
+(
+    [customer] => cus_MiOZL40XLIRYG3
+    [confirm] => true
+    [payment_method] => src_1Lyxm0KfkWAXhDcHItXCKttq
+)
+
+====End Log====
+
+
+2022-10-31T13:11:32+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Lyxm0KfkWAXhDcHItXCKttq
+====End Log====
+
+
+2022-10-31T13:11:32+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Lyxm0KfkWAXhDcHItXCKttq
+====End Log====
+
+
+2022-10-31T13:11:33+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MiOZL40XLIRYG3 request: Array
+(
+    [default_source] => src_1Lyxm0KfkWAXhDcHItXCKttq
+)
+
+====End Log====
+
+
+2022-10-31T14:30:15+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-31T14:30:52+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T14:30:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-31T14:30:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5615 for the amount of 102.54
+====End Log====
+
+
+2022-10-31T14:30:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 10254
+    [currency] => usd
+    [description] => Metabolic Code - Order 781
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 781
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Holly Vandegrift
+            [address] => Array
+                (
+                    [line1] => 106 Braeside Circle
+                    [line2] => 
+                    [city] => Asheville
+                    [country] => US
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T14:30:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lyz0rKfkWAXhDcH1TMsJHZe initiated for order 5615
+====End Log====
+
+
+2022-10-31T14:30:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lyz0rKfkWAXhDcH1TMsJHZe/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5615
+            [shipping_amount] => 1202
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [unit_cost] => 3401
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 28803
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T14:30:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lyz0rKfkWAXhDcH1TMsJHZe succeeded for order 5615
+====End Log====
+
+
+2022-10-31T14:30:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lyz0rKfkWAXhDcH10SCaYD7
+    [object] => charge
+    [amount] => 10254
+    [amount_captured] => 10254
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lyz0rKfkWAXhDcH1rUPRdNX
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667226654
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 781
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 3401
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                )
+
+            [merchant_reference] => 5615
+            [shipping_address_zip] => 28803
+            [shipping_amount] => 1202
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 781
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lyz0rKfkWAXhDcH1TMsJHZe
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gooLj_mgYyBrDpQmLHfjosFo13OzK9JxBNilXgA-Yv6E0vUat0M20gKtcxoaobru72SZ0QHIzfBgyJaJs
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lyz0rKfkWAXhDcH10SCaYD7/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 106 Braeside Circle
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [carrier] => 
+            [name] => Holly Vandegrift
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1667226655
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-31T14:30:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lyz0rKfkWAXhDcH1rUPRdNX
+====End Log====
+
+
+2022-10-31T16:54:59+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L20KF9xtdwcOBl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-31T16:55:27+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L20KF9xtdwcOBl request: Array
+(
+    [email] => mmuniz@mynurx.com
+    [description] => Name: Michael Muniz, Username: mynurx
+    [name] => Michael Muniz
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T16:55:27+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1LGsPrKfkWAXhDcHPtV0YC4p
+====End Log====
+
+
+2022-10-31T16:55:28+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5616 for the amount of 220.79
+====End Log====
+
+
+2022-10-31T16:55:28+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LGsPrKfkWAXhDcHPtV0YC4p
+    [amount] => 22079
+    [currency] => usd
+    [description] => Metabolic Code - Order 782
+    [metadata] => Array
+        (
+            [customer_name] => Michael Muniz
+            [customer_email] => mmuniz@mynurx.com
+            [order_id] => 782
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L20KF9xtdwcOBl
+    [shipping] => Array
+        (
+            [name] => Michael Muniz
+            [address] => Array
+                (
+                    [line1] => 9206 WinterGreen Ct
+                    [line2] => 
+                    [city] => Harlingen
+                    [country] => US
+                    [postal_code] => 78552
+                    [state] => TX
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T16:55:28+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lz1GmKfkWAXhDcH03Gx4XeZ initiated for order 5616
+====End Log====
+
+
+2022-10-31T16:55:28+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lz1GmKfkWAXhDcH03Gx4XeZ/confirm request: Array
+(
+    [source] => src_1LGsPrKfkWAXhDcHPtV0YC4p
+    [level3] => Array
+        (
+            [merchant_reference] => 5616
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [unit_cost] => 3534
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 78552
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T16:55:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lz1GmKfkWAXhDcH03Gx4XeZ succeeded for order 5616
+====End Log====
+
+
+2022-10-31T16:55:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lz1GmKfkWAXhDcH0abgTFQf
+    [object] => charge
+    [amount] => 22079
+    [amount_captured] => 22079
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lz1GmKfkWAXhDcH0S72hTly
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Harlingen
+                    [country] => US
+                    [line1] => 9206 WinterGreen Ct
+                    [line2] => 
+                    [postal_code] => 78552
+                    [state] => TX
+                )
+
+            [email] => mmuniz@mynurx.com
+            [name] => Michael Muniz
+            [phone] => 956-230-5565
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667235329
+    [currency] => usd
+    [customer] => cus_L20KF9xtdwcOBl
+    [description] => Metabolic Code - Order 782
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [unit_cost] => 3534
+                        )
+
+                )
+
+            [merchant_reference] => 5616
+            [shipping_address_zip] => 78552
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => mmuniz@mynurx.com
+            [customer_name] => Michael Muniz
+            [order_id] => 782
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lz1GmKfkWAXhDcH03Gx4XeZ
+    [payment_method] => src_1LGsPrKfkWAXhDcHPtV0YC4p
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => fail
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 1
+                    [exp_year] => 2027
+                    [fingerprint] => oejkPuKJnZsR1Kd5
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 5800
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => mmuniz@mynurx.com
+    [receipt_number] => 1746-1309
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gogvz_mgYyBo_j7EbEGjosFuci_9IQ9p6XXPoDiuMTRQYttLe-NMVQE50OCWlY_ywNOaxYZWxfzTF2dT8
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lz1GmKfkWAXhDcH0abgTFQf/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Harlingen
+                    [country] => US
+                    [line1] => 9206 WinterGreen Ct
+                    [line2] => 
+                    [postal_code] => 78552
+                    [state] => TX
+                )
+
+            [carrier] => 
+            [name] => Michael Muniz
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LGsPrKfkWAXhDcHPtV0YC4p
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => fail
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 1
+                    [exp_year] => 2027
+                    [fingerprint] => oejkPuKJnZsR1Kd5
+                    [funding] => credit
+                    [last4] => 5800
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_9xewYJovA1u90EcTythfSxgm
+            [created] => 1667235330
+            [currency] => 
+            [customer] => cus_L20KF9xtdwcOBl
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Harlingen
+                            [country] => US
+                            [line1] => 9206 WinterGreen Ct
+                            [line2] => 
+                            [postal_code] => 78552
+                            [state] => TX
+                        )
+
+                    [email] => mmuniz@mynurx.com
+                    [name] => Michael Muniz
+                    [phone] => 956-230-5565
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-31T16:55:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lz1GmKfkWAXhDcH0S72hTly
+====End Log====
+
+
+2022-10-31T17:31:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-31T18:13:29+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3Lz2UBKfkWAXhDcH1lp6mIOc
+====End Log====
+
+
+2022-10-31T18:38:17+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3Lz2sDKfkWAXhDcH0g95G9sf
+====End Log====
+
+
+2022-10-31T18:59:06+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MBASfoXxWVQeRu/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-31T19:08:30+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MBASfoXxWVQeRu request: Array
+(
+    [email] => kfruth@docerelifecenter.com
+    [description] => Name: Kison Frank, Username: DocereLifeCenter
+    [name] => Kison Frank
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T19:08:30+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1LSo7cKfkWAXhDcHwIX61aBO
+====End Log====
+
+
+2022-10-31T19:08:30+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5618 for the amount of 206.15
+====End Log====
+
+
+2022-10-31T19:08:30+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LSo7cKfkWAXhDcHwIX61aBO
+    [amount] => 20615
+    [currency] => usd
+    [description] => Metabolic Code - Order 783
+    [metadata] => Array
+        (
+            [customer_name] => Kison Frank
+            [customer_email] => kfruth@docerelifecenter.com
+            [order_id] => 783
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MBASfoXxWVQeRu
+    [shipping] => Array
+        (
+            [name] => Kison Frank
+            [address] => Array
+                (
+                    [line1] => 7570 W 21st St N 1010B 1010B
+                    [line2] => 1010B
+                    [city] => Wichita
+                    [country] => US
+                    [postal_code] => 67205
+                    [state] => KS
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T19:08:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lz3LXKfkWAXhDcH0aUJPX8X initiated for order 5618
+====End Log====
+
+
+2022-10-31T19:08:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lz3LXKfkWAXhDcH0aUJPX8X/confirm request: Array
+(
+    [source] => src_1LSo7cKfkWAXhDcHwIX61aBO
+    [level3] => Array
+        (
+            [merchant_reference] => 5618
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2750
+                            [product_description] => Ultra Pure Liver Concentra
+                            [unit_cost] => 3290
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 67205
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T19:08:33+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lz3LXKfkWAXhDcH0aUJPX8X succeeded for order 5618
+====End Log====
+
+
+2022-10-31T19:08:33+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lz3LXKfkWAXhDcH0aoDTPt8
+    [object] => charge
+    [amount] => 20615
+    [amount_captured] => 20615
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lz3LXKfkWAXhDcH0VRdxRBp
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Wichita
+                    [country] => US
+                    [line1] => 7570 W 21st St N
+                    [line2] => 1010B
+                    [postal_code] => 67205
+                    [state] => KS
+                )
+
+            [email] => kfruth@docerelifecenter.com
+            [name] => Kison Frank
+            [phone] => 316-531-3030
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667243312
+    [currency] => usd
+    [customer] => cus_MBASfoXxWVQeRu
+    [description] => Metabolic Code - Order 783
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2750
+                            [product_description] => Ultra Pure Liver Concentra
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [unit_cost] => 3290
+                        )
+
+                )
+
+            [merchant_reference] => 5618
+            [shipping_address_zip] => 67205
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => kfruth@docerelifecenter.com
+            [customer_name] => Kison Frank
+            [order_id] => 783
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => unknown
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lz3LXKfkWAXhDcH0aUJPX8X
+    [payment_method] => src_1LSo7cKfkWAXhDcHwIX61aBO
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 5
+                    [exp_year] => 2025
+                    [fingerprint] => HNTEOwIBhk35sU8s
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 2454
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => kfruth@docerelifecenter.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gosbqAmwYyBlhg6uO60josFuHqkocQDbNX-jp1CWJKwT1LnKUpZj8_kOCz-Dr9LQzhF2qMZuGQtAxj0pg
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lz3LXKfkWAXhDcH0aoDTPt8/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Wichita
+                    [country] => US
+                    [line1] => 7570 W 21st St N 1010B 1010B
+                    [line2] => 1010B
+                    [postal_code] => 67205
+                    [state] => KS
+                )
+
+            [carrier] => 
+            [name] => Kison Frank
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LSo7cKfkWAXhDcHwIX61aBO
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 5
+                    [exp_year] => 2025
+                    [fingerprint] => HNTEOwIBhk35sU8s
+                    [funding] => debit
+                    [last4] => 2454
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_Igh08iXX70idt4nWUvaBVR7p
+            [created] => 1667243312
+            [currency] => 
+            [customer] => cus_MBASfoXxWVQeRu
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Wichita
+                            [country] => US
+                            [line1] => 7570 W 21st St N
+                            [line2] => 1010B
+                            [postal_code] => 67205
+                            [state] => KS
+                        )
+
+                    [email] => kfruth@docerelifecenter.com
+                    [name] => Kison Frank
+                    [phone] => 316-531-3030
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-31T19:08:33+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lz3LXKfkWAXhDcH0VRdxRBp
+====End Log====
+
+
+2022-10-31T23:19:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T23:19:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1KPUheKfkWAXhDcHOrmeD0Jv
+====End Log====
+
+
+2022-10-31T23:19:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5620 for the amount of 37.31
+====End Log====
+
+
+2022-10-31T23:19:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1KPUheKfkWAXhDcHOrmeD0Jv
+    [amount] => 3731
+    [currency] => usd
+    [description] => Metabolic Code - Order 785
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 785
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Carol Young
+            [address] => Array
+                (
+                    [line1] => 4370 Hunton Dale Rd Nw
+                    [line2] => 
+                    [city] => Concord
+                    [country] => US
+                    [postal_code] => 28027
+                    [state] => NC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T23:19:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lz7G1KfkWAXhDcH10qfkSsK initiated for order 5620
+====End Log====
+
+
+2022-10-31T23:19:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lz7G1KfkWAXhDcH10qfkSsK/confirm request: Array
+(
+    [source] => src_1KPUheKfkWAXhDcHOrmeD0Jv
+    [level3] => Array
+        (
+            [merchant_reference] => 5620
+            [shipping_amount] => 1128
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3597
+                            [product_description] => HemePlex
+                            [unit_cost] => 1169
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2593
+                            [product_description] => AMLA-C
+                            [unit_cost] => 1434
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 28027
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-31T23:19:08+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lz7G1KfkWAXhDcH10qfkSsK succeeded for order 5620
+====End Log====
+
+
+2022-10-31T23:19:08+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lz7G1KfkWAXhDcH1ja2btGJ
+    [object] => charge
+    [amount] => 3731
+    [amount_captured] => 3731
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lz7G1KfkWAXhDcH1hMwyFRw
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Fletcher
+                    [country] => US
+                    [line1] => 200 Two Brooks Trail
+                    [line2] => 
+                    [postal_code] => 28732
+                    [state] => NC
+                )
+
+            [email] => manager@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 8285525515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667258346
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 785
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3597
+                            [product_description] => HemePlex
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1169
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2593
+                            [product_description] => AMLA-C
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1434
+                        )
+
+                )
+
+            [merchant_reference] => 5620
+            [shipping_address_zip] => 28027
+            [shipping_amount] => 1128
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 785
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lz7G1KfkWAXhDcH10qfkSsK
+    [payment_method] => src_1KPUheKfkWAXhDcHOrmeD0Jv
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 1
+                    [exp_year] => 2027
+                    [fingerprint] => vgEwZvPKRW2Rgfig
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2000
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go7K-BmwYyBmMd7QXiEDosFrwQJ6TQp1bGROtCKzPJnKG2D7txak8CNTp87lXuld5XP67sBUYQIL_BbRo
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lz7G1KfkWAXhDcH1ja2btGJ/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Concord
+                    [country] => US
+                    [line1] => 4370 Hunton Dale Rd Nw
+                    [line2] => 
+                    [postal_code] => 28027
+                    [state] => NC
+                )
+
+            [carrier] => 
+            [name] => Carol Young
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1KPUheKfkWAXhDcHOrmeD0Jv
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 1
+                    [exp_year] => 2027
+                    [fingerprint] => vgEwZvPKRW2Rgfig
+                    [funding] => credit
+                    [last4] => 2000
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_hUwgFqjN71LnbpFogPre0XYc
+            [created] => 1667258347
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Fletcher
+                            [country] => US
+                            [line1] => 200 Two Brooks Trail
+                            [line2] => 
+                            [postal_code] => 28732
+                            [state] => NC
+                        )
+
+                    [email] => manager@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 8285525515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-31T23:19:08+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lz7G1KfkWAXhDcH1hMwyFRw
+====End Log====
+
+

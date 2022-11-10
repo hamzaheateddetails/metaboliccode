@@ -1,0 +1,17 @@
+
+Mar 04, 2022 16.13.53: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Mar 04, 2022 16.18.29: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Mar 10, 2022 21.52.57: Uncaught Error: Class 'WC_Payment_Gateways' not found in /nas/content/live/metabolicpro/wp-content/plugins/woocommerce/includes/class-woocommerce.php:885
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-intent-controller.php(52): WooCommerce->payment_gateways()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-stripe-intent-controller.php(671): WC_Stripe_Intent_Controller->get_gateway()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(303): WC_Stripe_Intent_Controller->maybe_process_upe_redirect(Object(WP))
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-includes/class-wp.php(763): do_action_ref_array('wp', Array)
+#6 /nas/content/live/metabolicpro/wp-includes/functions.php(1291): WP->main('')
+#7 /na
+
+Mar 23, 2022 18.25.13: Allowed memory size of 536870912 bytes exhausted (tried to allocate 77672552 bytes)

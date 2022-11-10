@@ -1,0 +1,4 @@
+
+Dec 21, 2021 22.14.34: Allowed memory size of 536870912 bytes exhausted (tried to allocate 77665200 bytes)
+
+Dec 24, 2021 18.51.21: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)

@@ -1,0 +1,4 @@
+
+Jan 20, 2022 20.30.37: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Jan 20, 2022 20.33.16: Allowed memory size of 536870912 bytes exhausted (tried to allocate 77667608 bytes)

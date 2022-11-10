@@ -1,0 +1,26 @@
+
+May 04, 2022 21.21.21: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 04, 2022 21.23.16: Allowed memory size of 536870912 bytes exhausted (tried to allocate 77704416 bytes)
+
+May 11, 2022 19.49.56: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 24, 2022 19.12.06: Allowed memory size of 536870912 bytes exhausted (tried to allocate 23072768 bytes)
+
+May 24, 2022 19.22.51: Allowed memory size of 536870912 bytes exhausted (tried to allocate 23072768 bytes)
+
+May 24, 2022 19.30.54: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 24, 2022 19.43.40: Allowed memory size of 536870912 bytes exhausted (tried to allocate 23072768 bytes)
+
+May 26, 2022 04.27.44: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 26, 2022 04.32.06: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 26, 2022 20.45.35: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 27, 2022 21.06.54: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 27, 2022 21.08.40: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+May 27, 2022 21.12.19: Allowed memory size of 536870912 bytes exhausted (tried to allocate 64073344 bytes)

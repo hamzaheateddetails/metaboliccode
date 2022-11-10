@@ -1,0 +1,460 @@
+2022-11-04T00:07:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3M0DRNKfkWAXhDcH0nsy1e9S
+====End Log====
+
+
+2022-11-04T03:54:20+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LcX9wKfkWAXhDcH0QSvCIex?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-11-04T03:57:29+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_JAbzPF2UUx9ZXC/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-11-04T03:58:20+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_JAbzPF2UUx9ZXC request: Array
+(
+    [email] => patientcare@wellnessmedx.com
+    [description] => Name: sumi epie, Username: WellnessMedX
+    [name] => sumi epie
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-11-04T03:58:20+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1IYGlQKfkWAXhDcHl8xzInZY
+====End Log====
+
+
+2022-11-04T03:58:20+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5624 for the amount of 261.48
+====End Log====
+
+
+2022-11-04T03:58:20+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1IYGlQKfkWAXhDcHl8xzInZY
+    [amount] => 26148
+    [currency] => usd
+    [description] => Metabolic Code - Order 788
+    [metadata] => Array
+        (
+            [customer_name] => sumi epie
+            [customer_email] => patientcare@wellnessmedx.com
+            [order_id] => 788
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_JAbzPF2UUx9ZXC
+    [shipping] => Array
+        (
+            [name] => sumi epie
+            [address] => Array
+                (
+                    [line1] => 18802 Aphrodite Lane
+                    [line2] => 
+                    [city] => Canyon Country
+                    [country] => US
+                    [postal_code] => 91351
+                    [state] => CA
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-11-04T03:58:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3M0H2vKfkWAXhDcH1IuokSk4 initiated for order 5624
+====End Log====
+
+
+2022-11-04T03:58:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3M0H2vKfkWAXhDcH1IuokSk4/confirm request: Array
+(
+    [source] => src_1IYGlQKfkWAXhDcHl8xzInZY
+    [level3] => Array
+        (
+            [merchant_reference] => 5624
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2709
+                            [product_description] => Sunfiber®
+                            [unit_cost] => 2885
+                            [quantity] => 8
+                            [tax_amount] => 2193
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 91351
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-11-04T03:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3M0H2vKfkWAXhDcH1IuokSk4 succeeded for order 5624
+====End Log====
+
+
+2022-11-04T03:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3M0H2vKfkWAXhDcH1ze7gfKg
+    [object] => charge
+    [amount] => 26148
+    [amount_captured] => 26148
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3M0H2vKfkWAXhDcH1X0LzYMf
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Canyon Country
+                    [country] => US
+                    [line1] => 18802 Aphrodite Lane
+                    [line2] => 
+                    [postal_code] => 91351
+                    [state] => CA
+                )
+
+            [email] => patientcare@wellnessmedx.com
+            [name] => sumi epie
+            [phone] => 8188578395
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1667534302
+    [currency] => usd
+    [customer] => cus_JAbzPF2UUx9ZXC
+    [description] => Metabolic Code - Order 788
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2709
+                            [product_description] => Sunfiber®
+                            [quantity] => 8
+                            [tax_amount] => 2193
+                            [unit_cost] => 2885
+                        )
+
+                )
+
+            [merchant_reference] => 5624
+            [shipping_address_zip] => 91351
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => patientcare@wellnessmedx.com
+            [customer_name] => sumi epie
+            [order_id] => 788
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3M0H2vKfkWAXhDcH1IuokSk4
+    [payment_method] => src_1IYGlQKfkWAXhDcHl8xzInZY
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 1
+                    [exp_year] => 2024
+                    [fingerprint] => WOGwztfKmSM0pgK5
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 7295
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => patientcare@wellnessmedx.com
+    [receipt_number] => 1371-6710
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go35uSmwYyBouxTr_qODosFiNZP4b7ceGtaLyb_8ZBNYpRPqSZp4Kh75LBPa-3xiBM9xHp3kjjNlg8vzk
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3M0H2vKfkWAXhDcH1ze7gfKg/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Canyon Country
+                    [country] => US
+                    [line1] => 18802 Aphrodite Lane
+                    [line2] => 
+                    [postal_code] => 91351
+                    [state] => CA
+                )
+
+            [carrier] => 
+            [name] => sumi epie
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1IYGlQKfkWAXhDcHl8xzInZY
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 1
+                    [exp_year] => 2024
+                    [fingerprint] => WOGwztfKmSM0pgK5
+                    [funding] => debit
+                    [last4] => 7295
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_8IPokyorveFcCCcREoTNchRQ
+            [created] => 1667534303
+            [currency] => 
+            [customer] => cus_JAbzPF2UUx9ZXC
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Canyon Country
+                            [country] => US
+                            [line1] => 18802 Aphrodite Lane
+                            [line2] => 
+                            [postal_code] => 91351
+                            [state] => CA
+                        )
+
+                    [email] => patientcare@wellnessmedx.com
+                    [name] => sumi epie
+                    [phone] => 8188578395
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-11-04T03:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3M0H2vKfkWAXhDcH1X0LzYMf
+====End Log====
+
+
+2022-11-04T17:39:37+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers request: Array
+(
+    [email] => carlajean45@aol.com
+    [description] => Name: Carla Walker, Username: carlajean45
+    [name] => Carla Walker
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-11-04T17:39:38+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MjxnJ25zzWGmMp/sources request: Array
+(
+    [source] => src_1M0TreKfkWAXhDcHGtpur1DW
+)
+
+====End Log====
+
+
+2022-11-04T17:39:39+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+setup_intents request: Array
+(
+    [customer] => cus_MjxnJ25zzWGmMp
+    [confirm] => true
+    [payment_method] => src_1M0TreKfkWAXhDcHGtpur1DW
+)
+
+====End Log====
+
+
+2022-11-04T17:39:42+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1M0TreKfkWAXhDcHGtpur1DW
+====End Log====
+
+
+2022-11-04T17:39:42+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1M0TreKfkWAXhDcHGtpur1DW
+====End Log====
+
+
+2022-11-04T17:39:43+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MjxnJ25zzWGmMp request: Array
+(
+    [default_source] => src_1M0TreKfkWAXhDcHGtpur1DW
+)
+
+====End Log====
+
+

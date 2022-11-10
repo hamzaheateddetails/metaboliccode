@@ -1,0 +1,18 @@
+
+Oct 28, 2020 18.21.04: Uncaught Error: Class 'iThemesSecurity\Actor\Multi_Actor_Factory' not found in /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/core/container.php:19
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/vendor-prod/pimple/pimple/src/Pimple/Container.php(118): ITSEC_Modules::iThemesSecurity\{closure}(Object(Pimple\Container))
+#1 /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/vendor-prod/pimple/pimple/src/Pimple/Psr11/Container.php(48): Pimple\Container->offsetGet('iThemesSecurity...')
+#2 /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/core/modules/core/class-itsec-core-active.php(13): Pimple\Psr11\Container->get('iThemesSecurity...')
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(287): ITSEC_Core_Active->rest_api_init(Object(WP_REST_Server))
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /nas/content/live/metabolicpro/wp-includes/plugin.ph
+
+Oct 28, 2020 18.21.04: Uncaught Error: Class 'iThemesSecurity\Actor\Multi_Actor_Factory' not found in /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/core/container.php:19
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/vendor-prod/pimple/pimple/src/Pimple/Container.php(118): ITSEC_Modules::iThemesSecurity\{closure}(Object(Pimple\Container))
+#1 /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/vendor-prod/pimple/pimple/src/Pimple/Psr11/Container.php(48): Pimple\Container->offsetGet('iThemesSecurity...')
+#2 /nas/content/live/metabolicpro/wp-content/plugins/better-wp-security/core/modules/core/class-itsec-core-active.php(13): Pimple\Psr11\Container->get('iThemesSecurity...')
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(287): ITSEC_Core_Active->rest_api_init(Object(WP_REST_Server))
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /nas/content/live/metabolicpro/wp-includes/plugin.ph

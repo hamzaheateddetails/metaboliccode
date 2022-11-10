@@ -1,0 +1,486 @@
+2022-10-25T16:10:36+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3LwphyKfkWAXhDcH1bSCA6rA
+====End Log====
+
+
+2022-10-25T19:10:34+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3L9cwlKfkWAXhDcH1BHMSh6S?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-25T19:10:40+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3L9cwlKfkWAXhDcH1BHMSh6S?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-25T19:11:39+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_Jg0jASDCrRCXTM/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-25T19:13:42+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1LwsZ6KfkWAXhDcHoBsqp8uB
+====End Log====
+
+
+2022-10-25T19:13:42+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_Jg0jASDCrRCXTM request: Array
+(
+    [email] => aaron.a.cardoza@gmail.com
+    [description] => Name: Aaron Cardoza, Username: aaron.a.cardoza@gmail.com
+    [name] => Aaron Cardoza
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-25T19:13:43+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5606 for the amount of 96.90
+====End Log====
+
+
+2022-10-25T19:13:43+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LwsZ6KfkWAXhDcHoBsqp8uB
+    [amount] => 9690
+    [currency] => usd
+    [description] => Metabolic Code - Order 772
+    [metadata] => Array
+        (
+            [customer_name] => Aaron Cardoza
+            [customer_email] => aaron.a.cardoza@gmail.com
+            [order_id] => 772
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_Jg0jASDCrRCXTM
+    [shipping] => Array
+        (
+            [name] => Aaron Cardoza
+            [address] => Array
+                (
+                    [line1] => 112 Daleville Ln
+                    [line2] => 
+                    [city] => Daleville
+                    [country] => US
+                    [postal_code] => 24083
+                    [state] => VA
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-25T19:13:43+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LwsZHKfkWAXhDcH0rFKByDZ initiated for order 5606
+====End Log====
+
+
+2022-10-25T19:13:43+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LwsZHKfkWAXhDcH0rFKByDZ/confirm request: Array
+(
+    [source] => src_1LwsZ6KfkWAXhDcHoBsqp8uB
+    [level3] => Array
+        (
+            [merchant_reference] => 5606
+            [shipping_amount] => 450
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2707
+                            [product_description] => Lipid Rescue
+                            [unit_cost] => 4620
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 24083
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-25T19:13:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LwsZHKfkWAXhDcH0rFKByDZ succeeded for order 5606
+====End Log====
+
+
+2022-10-25T19:13:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LwsZHKfkWAXhDcH0NxApReS
+    [object] => charge
+    [amount] => 9690
+    [amount_captured] => 9690
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LwsZHKfkWAXhDcH0ClHwNwp
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Daleville
+                    [country] => US
+                    [line1] => 112 Daleville Ln
+                    [line2] => 
+                    [postal_code] => 24083
+                    [state] => VA
+                )
+
+            [email] => aaron.a.cardoza@gmail.com
+            [name] => Aaron Cardoza
+            [phone] => 4342294489
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666725224
+    [currency] => usd
+    [customer] => cus_Jg0jASDCrRCXTM
+    [description] => Metabolic Code - Order 772
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2707
+                            [product_description] => Lipid Rescue
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 4620
+                        )
+
+                )
+
+            [merchant_reference] => 5606
+            [shipping_address_zip] => 24083
+            [shipping_amount] => 450
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => aaron.a.cardoza@gmail.com
+            [customer_name] => Aaron Cardoza
+            [order_id] => 772
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LwsZHKfkWAXhDcH0rFKByDZ
+    [payment_method] => src_1LwsZ6KfkWAXhDcHoBsqp8uB
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => Z5pI669AekLd3JK8
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4007
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => aaron.a.cardoza@gmail.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go6ergmgYyBq2ZouwfbTosFg60FJpp41yqz0Ft5--EHmIuUGDssoblYO3pNoR6kBUjUuzVN8IhkCVX0g4
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LwsZHKfkWAXhDcH0NxApReS/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Daleville
+                    [country] => US
+                    [line1] => 112 Daleville Ln
+                    [line2] => 
+                    [postal_code] => 24083
+                    [state] => VA
+                )
+
+            [carrier] => 
+            [name] => Aaron Cardoza
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LwsZ6KfkWAXhDcHoBsqp8uB
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => pass
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => Z5pI669AekLd3JK8
+                    [funding] => credit
+                    [last4] => 4007
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_Igb2DpeVo2yQF75DYI9kCqs9
+            [created] => 1666725225
+            [currency] => 
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Daleville
+                            [country] => US
+                            [line1] => 112 Daleville Ln
+                            [line2] => 
+                            [postal_code] => 24083
+                            [state] => VA
+                        )
+
+                    [email] => aaron.a.cardoza@gmail.com
+                    [name] => Aaron Cardoza
+                    [phone] => 4342294489
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-25T19:13:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LwsZHKfkWAXhDcH0ClHwNwp
+====End Log====
+
+
+2022-10-25T20:28:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers request: Array
+(
+    [email] => kjeffhanson@yahoo.com
+    [description] => Name: Jeff Hanson, Username: Kjeffhanson@yahoo.com
+    [name] => Jeff Hanson
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-25T20:28:59+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MgGGT6C4uHnIzj/sources request: Array
+(
+    [source] => src_1Lwtk3KfkWAXhDcHYyvSyJGY
+)
+
+====End Log====
+
+
+2022-10-25T20:29:00+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+setup_intents request: Array
+(
+    [customer] => cus_MgGGT6C4uHnIzj
+    [confirm] => true
+    [payment_method] => src_1Lwtk3KfkWAXhDcHYyvSyJGY
+)
+
+====End Log====
+
+
+2022-10-25T20:29:03+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Lwtk3KfkWAXhDcHYyvSyJGY
+====End Log====
+
+
+2022-10-25T20:29:03+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Lwtk3KfkWAXhDcHYyvSyJGY
+====End Log====
+
+
+2022-10-25T20:29:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MgGGT6C4uHnIzj request: Array
+(
+    [default_source] => src_1Lwtk3KfkWAXhDcHYyvSyJGY
+)
+
+====End Log====
+
+
+2022-10-25T20:55:36+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_MgGGT6C4uHnIzj/sources/src_1Lwtk3KfkWAXhDcHYyvSyJGY request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-25T21:15:44+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3LwuTGKfkWAXhDcH1owirnzW
+====End Log====
+
+

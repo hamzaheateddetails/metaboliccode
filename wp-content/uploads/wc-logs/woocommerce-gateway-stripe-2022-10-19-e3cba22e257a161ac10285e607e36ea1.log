@@ -1,0 +1,386 @@
+2022-10-19T15:01:02+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_JZJMZ6DgisHFBx/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-19T15:01:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_JZJMZ6DgisHFBx request: Array
+(
+    [email] => questions@ih.life
+    [description] => Name: marie williams, Username: Jackie Williams
+    [name] => marie williams
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-19T15:01:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1L09sjKfkWAXhDcH4ROqduXI
+====End Log====
+
+
+2022-10-19T15:01:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5594 for the amount of 262.35
+====End Log====
+
+
+2022-10-19T15:01:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1L09sjKfkWAXhDcH4ROqduXI
+    [amount] => 26235
+    [currency] => usd
+    [description] => Metabolic Code - Order 764
+    [metadata] => Array
+        (
+            [customer_name] => marie williams
+            [customer_email] => questions@ih.life
+            [order_id] => 764
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_JZJMZ6DgisHFBx
+    [shipping] => Array
+        (
+            [name] => marie williams
+            [address] => Array
+                (
+                    [line1] => 111 Fountain Blvd
+                    [line2] => 
+                    [city] => Madison
+                    [country] => US
+                    [postal_code] => 39110
+                    [state] => MS
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-19T15:01:40+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Ludm4KfkWAXhDcH1ZWzGXhb initiated for order 5594
+====End Log====
+
+
+2022-10-19T15:01:40+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Ludm4KfkWAXhDcH1ZWzGXhb/confirm request: Array
+(
+    [source] => src_1L09sjKfkWAXhDcH4ROqduXI
+    [level3] => Array
+        (
+            [merchant_reference] => 5594
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [unit_cost] => 2536
+                            [quantity] => 10
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 39110
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-19T15:01:43+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Ludm4KfkWAXhDcH1ZWzGXhb succeeded for order 5594
+====End Log====
+
+
+2022-10-19T15:01:43+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Ludm4KfkWAXhDcH1iBI5hPi
+    [object] => charge
+    [amount] => 26235
+    [amount_captured] => 26235
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Ludm4KfkWAXhDcH1VIDTUDc
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Madison
+                    [country] => US
+                    [line1] => 111 Fountain Blvd 
+                    [line2] => 
+                    [postal_code] => 39110
+                    [state] => MS
+                )
+
+            [email] => questions@ih.life
+            [name] => marie williams
+            [phone] => 6019681690
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666191701
+    [currency] => usd
+    [customer] => cus_JZJMZ6DgisHFBx
+    [description] => Metabolic Code - Order 764
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [quantity] => 10
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                )
+
+            [merchant_reference] => 5594
+            [shipping_address_zip] => 39110
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => questions@ih.life
+            [customer_name] => marie williams
+            [order_id] => 764
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Ludm4KfkWAXhDcH1ZWzGXhb
+    [payment_method] => src_1L09sjKfkWAXhDcH4ROqduXI
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 4
+                    [exp_year] => 2025
+                    [fingerprint] => HnxQEQTfQM12YhRl
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 3264
+                    [mandate] => 
+                    [network] => mastercard
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => questions@ih.life
+    [receipt_number] => 1331-0645
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go16LAmgYyBnuwTWlGPzosFrHSmi1sdg8V0ErAQTs_EZ2A7GmOetsUfaH8H-cK5VJCwPCAkVhQh_8Vm84
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Ludm4KfkWAXhDcH1iBI5hPi/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Madison
+                    [country] => US
+                    [line1] => 111 Fountain Blvd
+                    [line2] => 
+                    [postal_code] => 39110
+                    [state] => MS
+                )
+
+            [carrier] => 
+            [name] => marie williams
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1L09sjKfkWAXhDcH4ROqduXI
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => MasterCard
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 4
+                    [exp_year] => 2025
+                    [fingerprint] => HnxQEQTfQM12YhRl
+                    [funding] => debit
+                    [last4] => 3264
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_aUGjLcam2RWvwXrmJNOHRJxE
+            [created] => 1666191702
+            [currency] => 
+            [customer] => cus_JZJMZ6DgisHFBx
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Madison
+                            [country] => US
+                            [line1] => 111 Fountain Blvd 
+                            [line2] => 
+                            [postal_code] => 39110
+                            [state] => MS
+                        )
+
+                    [email] => questions@ih.life
+                    [name] => marie williams
+                    [phone] => 6019681690
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-19T15:01:43+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3Ludm4KfkWAXhDcH1VIDTUDc
+====End Log====
+
+
+2022-10-19T17:26:28+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3Lug25KfkWAXhDcH18Qdio3y
+====End Log====
+
+
+2022-10-19T19:23:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3LuhroKfkWAXhDcH1xzOm2JX
+====End Log====
+
+

@@ -1,0 +1,371 @@
+2022-10-18T18:31:29+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_KmAkoa0NxgddE9/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-18T18:44:55+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1LuKmVKfkWAXhDcHRdLJ8cKb
+====End Log====
+
+
+2022-10-18T18:44:55+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_KmAkoa0NxgddE9 request: Array
+(
+    [email] => info@gofwc.com
+    [description] => Name: Berna DeMalignon, Username: demaberr
+    [name] => Berna DeMalignon
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-18T18:44:56+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5592 for the amount of 138.47
+====End Log====
+
+
+2022-10-18T18:44:56+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LuKmVKfkWAXhDcHRdLJ8cKb
+    [amount] => 13847
+    [currency] => usd
+    [description] => Metabolic Code - Order 763
+    [metadata] => Array
+        (
+            [customer_name] => Berna DeMalignon
+            [customer_email] => info@gofwc.com
+            [order_id] => 763
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_KmAkoa0NxgddE9
+    [shipping] => Array
+        (
+            [name] => Berna DeMalignon
+            [address] => Array
+                (
+                    [line1] => 202 2nd Ave South
+                    [line2] => Ste 103
+                    [city] => Great Falls
+                    [country] => US
+                    [postal_code] => 59405
+                    [state] => MT
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-18T18:44:56+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LuKmaKfkWAXhDcH0pMUEBMv initiated for order 5592
+====End Log====
+
+
+2022-10-18T18:44:56+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LuKmaKfkWAXhDcH0pMUEBMv/confirm request: Array
+(
+    [source] => src_1LuKmVKfkWAXhDcHRdLJ8cKb
+    [level3] => Array
+        (
+            [merchant_reference] => 5592
+            [shipping_amount] => 1143
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2704
+                            [product_description] => Phase 2.5 Bile Support
+                            [unit_cost] => 3176
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 59405
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-18T18:44:59+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LuKmaKfkWAXhDcH0pMUEBMv succeeded for order 5592
+====End Log====
+
+
+2022-10-18T18:44:59+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LuKmaKfkWAXhDcH0gXuk2Kr
+    [object] => charge
+    [amount] => 13847
+    [amount_captured] => 13847
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LuKmaKfkWAXhDcH0eN8CXuH
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Great Falls
+                    [country] => US
+                    [line1] => 202 2nd Ave South
+                    [line2] => Ste 103
+                    [postal_code] => 59405
+                    [state] => MT
+                )
+
+            [email] => info@gofwc.com
+            [name] => Berna DeMalignon
+            [phone] => 14069913957
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666118697
+    [currency] => usd
+    [customer] => cus_KmAkoa0NxgddE9
+    [description] => Metabolic Code - Order 763
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2704
+                            [product_description] => Phase 2.5 Bile Support
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [unit_cost] => 3176
+                        )
+
+                )
+
+            [merchant_reference] => 5592
+            [shipping_address_zip] => 59405
+            [shipping_amount] => 1143
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => info@gofwc.com
+            [customer_name] => Berna DeMalignon
+            [order_id] => 763
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LuKmaKfkWAXhDcH0pMUEBMv
+    [payment_method] => src_1LuKmVKfkWAXhDcHRdLJ8cKb
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => fail
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2024
+                    [fingerprint] => ESbWWhbVBSG48Y8m
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 7249
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => info@gofwc.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0goq-i7mgYyBmXlWcsEYTosFgrlA2w2PSDUdIBcoGaTswfx7E6SmzOEGNR3aQ2ZfO6oMHXo8nFoREwGPu0
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LuKmaKfkWAXhDcH0gXuk2Kr/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Great Falls
+                    [country] => US
+                    [line1] => 202 2nd Ave South
+                    [line2] => Ste 103
+                    [postal_code] => 59405
+                    [state] => MT
+                )
+
+            [carrier] => 
+            [name] => Berna DeMalignon
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LuKmVKfkWAXhDcHRdLJ8cKb
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => fail
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => pass
+                    [dynamic_last4] => 
+                    [exp_month] => 12
+                    [exp_year] => 2024
+                    [fingerprint] => ESbWWhbVBSG48Y8m
+                    [funding] => debit
+                    [last4] => 7249
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_7iggptk3GLbBbFfr6viQgdZw
+            [created] => 1666118698
+            [currency] => 
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Great Falls
+                            [country] => US
+                            [line1] => 202 2nd Ave South
+                            [line2] => Ste 103
+                            [postal_code] => 59405
+                            [state] => MT
+                        )
+
+                    [email] => info@gofwc.com
+                    [name] => Berna DeMalignon
+                    [phone] => 14069913957
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-18T18:44:59+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LuKmaKfkWAXhDcH0eN8CXuH
+====End Log====
+
+

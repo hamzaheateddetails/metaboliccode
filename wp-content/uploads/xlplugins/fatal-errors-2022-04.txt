@@ -1,0 +1,12 @@
+
+Apr 05, 2022 15.47.15: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+
+Apr 05, 2022 18.33.35: Allowed memory size of 536870912 bytes exhausted (tried to allocate 40960 bytes)
+
+Apr 05, 2022 19.27.24: Allowed memory size of 536870912 bytes exhausted (tried to allocate 23072768 bytes)
+
+Apr 12, 2022 21.01.56: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Apr 12, 2022 21.54.03: Allowed memory size of 536870912 bytes exhausted (tried to allocate 23072768 bytes)
+
+Apr 26, 2022 17.15.15: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)

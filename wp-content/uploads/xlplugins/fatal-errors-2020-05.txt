@@ -1,0 +1,8 @@
+
+May 29, 2020 16.19.10: Uncaught ArgumentCountError: Too few arguments to function Jetpack_Core_Json_Api_Endpoints::build_connect_url(), 0 passed in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php on line 1629 and exactly 1 expected in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php:1248
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php(1629): Jetpack_Core_Json_Api_Endpoints::build_connect_url()
+#1 /nas/content/live/metabolicpro/wp-includes/rest-api/class-wp-rest-server.php(1015): Jetpack_Core_Json_Api_Endpoints::start_fresh_connection(Object(WP_REST_Request))
+#2 /nas/content/live/metabolicpro/wp-includes/rest-api/class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /nas/content/live/metabolicpro/wp-includes/rest-api.php(306): WP_REST_Server->serve_request('/jetpack/v4/ide...')
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-

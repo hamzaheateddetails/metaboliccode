@@ -1,0 +1,9 @@
+
+Jul 30, 2021 03.49.50: Uncaught Error: Call to a member function delete() on bool in /nas/content/live/metabolicpro/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WooSubscriptionsNotes.php:301
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WooSubscriptionsNotes.php(447): Automattic\WooCommerce\Admin\Notes\WooSubscriptionsNotes->add_or_update_subscription_expiring(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WooSubscriptionsNotes.php(97): Automattic\WooCommerce\Admin\Notes\WooSubscriptionsNotes->refresh_subscription_notes()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Automattic\WooCommerce\Admin\Notes\WooSubscriptionsNotes->admin_init('')
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabo

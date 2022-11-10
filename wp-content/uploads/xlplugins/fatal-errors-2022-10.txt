@@ -1,0 +1,90 @@
+
+Oct 07, 2022 14.17.36: Uncaught Error: Class 'Automattic\Jetpack\Config' not found in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/class.jetpack.php:825
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(307): Jetpack->configure('')
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /nas/content/live/metabolicpro/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /nas/content/live/metabolicpro/wp-settings.php(461): do_action('plugins_loaded')
+#4 /nas/content/live/metabolicpro/wp-config.php(131): require_once('/nas/content/li...')
+#5 /nas/content/live/metabolicpro/wp-load.php(50): require_once('/nas/content/li...')
+#6 /nas/content/live/metabolicpro/wp-blog-header.php(13): require_once('/nas/content/li...')
+#7 /nas/content/live/metabolicpro/index.php(17): require('/nas/content/li...')
+#8 {main}
+  thrown
+
+Oct 07, 2022 14.17.36: Uncaught Error: Class 'Automattic\Jetpack\VideoPress\WPCOM_REST_API_V2_Attachment_VideoPress_Field' not found in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php:88
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php(32): Automattic\Jetpack\VideoPress\Initializer::unconditional_initialization()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(303): Automattic\Jetpack\VideoPress\Initializer::init()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(196): Automattic\Jetpack\Config->enable_videopress()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(147): Automattic\Jetpack\Config->ensure_feature('videopress')
+#4 /nas/content
+
+Oct 07, 2022 14.17.37: Uncaught Error: Class 'Automattic\Jetpack\VideoPress\WPCOM_REST_API_V2_Attachment_VideoPress_Field' not found in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php:88
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php(32): Automattic\Jetpack\VideoPress\Initializer::unconditional_initialization()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(303): Automattic\Jetpack\VideoPress\Initializer::init()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(196): Automattic\Jetpack\Config->enable_videopress()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(147): Automattic\Jetpack\Config->ensure_feature('videopress')
+#4 /nas/content
+
+Oct 07, 2022 14.17.37: Uncaught Error: Class 'Automattic\Jetpack\VideoPress\WPCOM_REST_API_V2_Attachment_VideoPress_Field' not found in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php:88
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php(32): Automattic\Jetpack\VideoPress\Initializer::unconditional_initialization()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(303): Automattic\Jetpack\VideoPress\Initializer::init()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(196): Automattic\Jetpack\Config->enable_videopress()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(147): Automattic\Jetpack\Config->ensure_feature('videopress')
+#4 /nas/content
+
+Oct 07, 2022 14.17.47: Uncaught Error: Class 'Automattic\Jetpack\VideoPress\WPCOM_REST_API_V2_Attachment_VideoPress_Field' not found in /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php:88
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-initializer.php(32): Automattic\Jetpack\VideoPress\Initializer::unconditional_initialization()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(303): Automattic\Jetpack\VideoPress\Initializer::init()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(196): Automattic\Jetpack\Config->enable_videopress()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-config/src/class-config.php(147): Automattic\Jetpack\Config->ensure_feature('videopress')
+#4 /nas/content
+
+Oct 20, 2022 20.23.19: Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us
+
+Oct 20, 2022 20.27.49: Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us
+
+Oct 20, 2022 20.27.52: Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us
+
+Oct 20, 2022 21.12.44: Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us
+
+Oct 20, 2022 21.16.27: Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us

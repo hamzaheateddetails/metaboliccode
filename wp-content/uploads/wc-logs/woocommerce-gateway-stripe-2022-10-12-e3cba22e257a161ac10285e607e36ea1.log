@@ -1,0 +1,392 @@
+2022-10-12T20:04:33+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_MEX0sksddzfu6U/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-12T20:07:04+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_MEX0sksddzfu6U request: Array
+(
+    [email] => Dr_muala@mancavemedspa.com
+    [description] => Name: Mancave Medspa, Username: SMuala
+    [name] => Mancave Medspa
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-12T20:07:04+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1LW3wFKfkWAXhDcH09rnoJ2d
+====End Log====
+
+
+2022-10-12T20:07:04+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5584 for the amount of 65.90
+====End Log====
+
+
+2022-10-12T20:07:04+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LW3wFKfkWAXhDcH09rnoJ2d
+    [amount] => 6590
+    [currency] => usd
+    [description] => Metabolic Code - Order 755
+    [metadata] => Array
+        (
+            [customer_name] => Mancave Medspa
+            [customer_email] => dr_muala@mancavemedspa.com
+            [order_id] => 755
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MEX0sksddzfu6U
+    [shipping] => Array
+        (
+            [name] => Lynn Frost
+            [address] => Array
+                (
+                    [line1] => 1762 E Powerline Rd
+                    [line2] => 
+                    [city] => Safford
+                    [country] => US
+                    [postal_code] => 85546
+                    [state] => AZ
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-12T20:07:05+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LsBCnKfkWAXhDcH1zPXpkEm initiated for order 5584
+====End Log====
+
+
+2022-10-12T20:07:05+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LsBCnKfkWAXhDcH1zPXpkEm/confirm request: Array
+(
+    [source] => src_1LW3wFKfkWAXhDcH09rnoJ2d
+    [level3] => Array
+        (
+            [merchant_reference] => 5584
+            [shipping_amount] => 719
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2760
+                            [product_description] => Pro ONCE Daily
+                            [unit_cost] => 2986
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2709
+                            [product_description] => Sunfiber®
+                            [unit_cost] => 2885
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 85546
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-12T20:07:08+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LsBCnKfkWAXhDcH1zPXpkEm succeeded for order 5584
+====End Log====
+
+
+2022-10-12T20:07:08+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LsBCnKfkWAXhDcH1KhRkppi
+    [object] => charge
+    [amount] => 6590
+    [amount_captured] => 6590
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LsBCnKfkWAXhDcH1yuDWU35
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Scottsdale
+                    [country] => US
+                    [line1] => 7950 E Acoma Dr
+                    [line2] => Suite 210
+                    [postal_code] => 85260
+                    [state] => AZ
+                )
+
+            [email] => dr_muala@mancavemedspa.com
+            [name] => Mancave Medspa
+            [phone] => 8317562399
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665605226
+    [currency] => usd
+    [customer] => cus_MEX0sksddzfu6U
+    [description] => Metabolic Code - Order 755
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2760
+                            [product_description] => Pro ONCE Daily
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2986
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2709
+                            [product_description] => Sunfiber®
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2885
+                        )
+
+                )
+
+            [merchant_reference] => 5584
+            [shipping_address_zip] => 85546
+            [shipping_amount] => 719
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => dr_muala@mancavemedspa.com
+            [customer_name] => Mancave Medspa
+            [order_id] => 755
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LsBCnKfkWAXhDcH1zPXpkEm
+    [payment_method] => src_1LW3wFKfkWAXhDcH09rnoJ2d
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2026
+                    [fingerprint] => bLskQcRjYdtuJy68
+                    [funding] => debit
+                    [installments] => 
+                    [last4] => 6195
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => Dr_muala@mancavemedspa.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go67ycmgYyBlG6LhZRLzosFp6z-9YKZkHRhn3JM_Zia1DX6Xp-ti9aN-Ah6pO7PgoQv8M3_9bDLRZx7R4
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LsBCnKfkWAXhDcH1KhRkppi/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Safford
+                    [country] => US
+                    [line1] => 1762 E Powerline Rd
+                    [line2] => 
+                    [postal_code] => 85546
+                    [state] => AZ
+                )
+
+            [carrier] => 
+            [name] => Lynn Frost
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LW3wFKfkWAXhDcH09rnoJ2d
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 2
+                    [exp_year] => 2026
+                    [fingerprint] => bLskQcRjYdtuJy68
+                    [funding] => debit
+                    [last4] => 6195
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_phe8K0uoOY0DaRTzdxU8MpUo
+            [created] => 1665605227
+            [currency] => 
+            [customer] => cus_MEX0sksddzfu6U
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Scottsdale
+                            [country] => US
+                            [line1] => 7950 E Acoma Dr
+                            [line2] => Suite 210
+                            [postal_code] => 85260
+                            [state] => AZ
+                        )
+
+                    [email] => dr_muala@mancavemedspa.com
+                    [name] => Mancave Medspa
+                    [phone] => 8317562399
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-12T20:07:08+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LsBCnKfkWAXhDcH1yuDWU35
+====End Log====
+
+

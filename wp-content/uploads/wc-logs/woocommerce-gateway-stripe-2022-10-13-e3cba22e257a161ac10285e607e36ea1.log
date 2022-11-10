@@ -1,0 +1,838 @@
+2022-10-13T11:14:41+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-13T11:15:35+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-13T11:15:35+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-13T11:15:36+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5585 for the amount of 74.14
+====End Log====
+
+
+2022-10-13T11:15:36+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 7414
+    [currency] => usd
+    [description] => Metabolic Code - Order 756
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 756
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Wendi Diamond
+            [address] => Array
+                (
+                    [line1] => 138 Olde Oak Way
+                    [line2] => 
+                    [city] => Hendersonville
+                    [country] => US
+                    [postal_code] => 28792
+                    [state] => NC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-13T11:15:36+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LsPO0KfkWAXhDcH1Tr9VDL1 initiated for order 5585
+====End Log====
+
+
+2022-10-13T11:15:36+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LsPO0KfkWAXhDcH1Tr9VDL1/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5585
+            [shipping_amount] => 1331
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3416
+                            [product_description] => Clarify 4.0
+                            [unit_cost] => 2399
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2593
+                            [product_description] => AMLA-C
+                            [unit_cost] => 1434
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 28792
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-13T11:15:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LsPO0KfkWAXhDcH1Tr9VDL1 succeeded for order 5585
+====End Log====
+
+
+2022-10-13T11:15:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LsPO0KfkWAXhDcH12IMthqF
+    [object] => charge
+    [amount] => 7414
+    [amount_captured] => 7414
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LsPO0KfkWAXhDcH1HcaOEd9
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665659737
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 756
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3416
+                            [product_description] => Clarify 4.0
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2399
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2593
+                            [product_description] => AMLA-C
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1434
+                        )
+
+                )
+
+            [merchant_reference] => 5585
+            [shipping_address_zip] => 28792
+            [shipping_amount] => 1331
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 756
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LsPO0KfkWAXhDcH1Tr9VDL1
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 1255-4812
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go2-afmgYyBpsfSXOIyTosFr-0tsXd4VEMMX7K7p0jFQErLVTn_WcOamKhR0dhBY-rnJDBwuN-yzU2noc
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LsPO0KfkWAXhDcH12IMthqF/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Hendersonville
+                    [country] => US
+                    [line1] => 138 Olde Oak Way
+                    [line2] => 
+                    [postal_code] => 28792
+                    [state] => NC
+                )
+
+            [carrier] => 
+            [name] => Wendi Diamond
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1665659738
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-13T11:15:39+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LsPO0KfkWAXhDcH1HcaOEd9
+====End Log====
+
+
+2022-10-13T11:36:23+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-13T11:38:11+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-13T11:38:12+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-13T11:38:12+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5586 for the amount of 42.84
+====End Log====
+
+
+2022-10-13T11:38:12+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 4284
+    [currency] => usd
+    [description] => Metabolic Code - Order 757
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 757
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Brandon Abbott
+            [address] => Array
+                (
+                    [line1] => 154 Manning Dr
+                    [line2] => 
+                    [city] => West Columbia
+                    [country] => US
+                    [postal_code] => 29169
+                    [state] => SC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-13T11:38:13+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LsPjsKfkWAXhDcH1fJQwGO0 initiated for order 5586
+====End Log====
+
+
+2022-10-13T11:38:13+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LsPjsKfkWAXhDcH1fJQwGO0/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5586
+            [shipping_amount] => 354
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [unit_cost] => 1680
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 29169
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-13T11:38:15+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LsPjsKfkWAXhDcH1fJQwGO0 succeeded for order 5586
+====End Log====
+
+
+2022-10-13T11:38:15+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LsPjsKfkWAXhDcH1Dabcyht
+    [object] => charge
+    [amount] => 4284
+    [amount_captured] => 4284
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LsPjsKfkWAXhDcH1saVGTTC
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1665661093
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 757
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1680
+                        )
+
+                )
+
+            [merchant_reference] => 5586
+            [shipping_address_zip] => 29169
+            [shipping_amount] => 354
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 757
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LsPjsKfkWAXhDcH1fJQwGO0
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 1894-3422
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gop_GfmgYyBubqBTypSzosFg5V9pEaDQ5Vii_rl0nZooRtc5ZXqmif2QsyG9xzMZl6VlBREKDmDvx4_Dw
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LsPjsKfkWAXhDcH1Dabcyht/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => West Columbia
+                    [country] => US
+                    [line1] => 154 Manning Dr
+                    [line2] => 
+                    [postal_code] => 29169
+                    [state] => SC
+                )
+
+            [carrier] => 
+            [name] => Brandon Abbott
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1665661095
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-13T11:38:15+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LsPjsKfkWAXhDcH1saVGTTC
+====End Log====
+
+
+2022-10-13T16:52:19+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LpzIEKfkWAXhDcH0uuv5ldI?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-13T16:52:26+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LpzIEKfkWAXhDcH0uuv5ldI?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-13T18:20:31+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3LsW18KfkWAXhDcH1L1KMIsa
+====End Log====
+
+
+2022-10-13T21:07:12+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Could not find order via charge ID: ch_3LsYcSKfkWAXhDcH0yNLJrt0
+====End Log====
+
+

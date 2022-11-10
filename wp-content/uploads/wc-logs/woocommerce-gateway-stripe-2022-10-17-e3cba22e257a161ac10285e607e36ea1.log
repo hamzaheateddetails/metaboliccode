@@ -1,0 +1,804 @@
+2022-10-17T15:07:45+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-17T15:08:56+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-17T15:08:56+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-17T15:08:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5590 for the amount of 91.12
+====End Log====
+
+
+2022-10-17T15:08:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 9112
+    [currency] => usd
+    [description] => Metabolic Code - Order 761
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 761
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Kevin Thompson
+            [address] => Array
+                (
+                    [line1] => 304 Lockhart Ct.
+                    [line2] => 
+                    [city] => Franklin
+                    [country] => US
+                    [postal_code] => 37069
+                    [state] => TN
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-17T15:08:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Ltuw1KfkWAXhDcH1zYVr530 initiated for order 5590
+====End Log====
+
+
+2022-10-17T15:08:57+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Ltuw1KfkWAXhDcH1zYVr530/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5590
+            [shipping_amount] => 1198
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2018
+                            [product_description] => RenoCap Forté
+                            [unit_cost] => 2854
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2719
+                            [product_description] => N-Acetyl-L-Cysteine
+                            [unit_cost] => 2206
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 37069
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-17T15:09:00+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3Ltuw1KfkWAXhDcH1zYVr530 succeeded for order 5590
+====End Log====
+
+
+2022-10-17T15:09:00+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Ltuw1KfkWAXhDcH1TRbryyv
+    [object] => charge
+    [amount] => 9112
+    [amount_captured] => 9112
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Ltuw1KfkWAXhDcH1mo2mqom
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666019338
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 761
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2018
+                            [product_description] => RenoCap Forté
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2854
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2719
+                            [product_description] => N-Acetyl-L-Cysteine
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2206
+                        )
+
+                )
+
+            [merchant_reference] => 5590
+            [shipping_address_zip] => 37069
+            [shipping_amount] => 1198
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 761
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Ltuw1KfkWAXhDcH1zYVr530
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 1125-1723
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gojOC1mgYyBjcty6UX7DosFitk8ZoMuBn7Muq3yTcNuJtk9JIz3DT3JGzy8hc4Wh1JmhfPGf9D2s5Pj0c
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Ltuw1KfkWAXhDcH1TRbryyv/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Franklin
+                    [country] => US
+                    [line1] => 304 Lockhart Ct.
+                    [line2] => 
+                    [postal_code] => 37069
+                    [state] => TN
+                )
+
+            [carrier] => 
+            [name] => Kevin Thompson
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1666019339
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-17T15:09:00+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3Ltuw1KfkWAXhDcH1mo2mqom
+====End Log====
+
+
+2022-10-17T15:18:36+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Lqjv2KfkWAXhDcH0JBzeoNi?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-17T15:18:40+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3Lqjv2KfkWAXhDcH0JBzeoNi?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-17T15:19:10+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LqOl9KfkWAXhDcH0t8ki9pt?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-17T15:19:14+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LqOl9KfkWAXhDcH0t8ki9pt?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-17T19:16:10+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_I8VSOx1MR2n9hN/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-17T19:17:05+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+customers/cus_I8VSOx1MR2n9hN request: Array
+(
+    [email] => phillipsfamilyrx@aol.com
+    [description] => Name: Josie Phillips-Ross, Username: Phillipsfamilyrx@gmail.com
+    [name] => Josie Phillips-Ross
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-17T19:17:06+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+sources/src_1I6leBKfkWAXhDcHGy1NGIGl
+====End Log====
+
+
+2022-10-17T19:17:06+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Info: Begin processing payment for order 5591 for the amount of 355.25
+====End Log====
+
+
+2022-10-17T19:17:06+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1I6leBKfkWAXhDcHGy1NGIGl
+    [amount] => 35525
+    [currency] => usd
+    [description] => Metabolic Code - Order 762
+    [metadata] => Array
+        (
+            [customer_name] => Josie Phillips-Ross
+            [customer_email] => phillipsfamilyrx@aol.com
+            [order_id] => 762
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_I8VSOx1MR2n9hN
+    [shipping] => Array
+        (
+            [name] => Josie Phillips-Ross
+            [address] => Array
+                (
+                    [line1] => 2401 NW platte road
+                    [line2] => 
+                    [city] => Riverside
+                    [country] => US
+                    [postal_code] => 64150
+                    [state] => MO
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-17T19:17:07+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LtyoAKfkWAXhDcH1AkqIjtL initiated for order 5591
+====End Log====
+
+
+2022-10-17T19:17:07+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+payment_intents/pi_3LtyoAKfkWAXhDcH1AkqIjtL/confirm request: Array
+(
+    [source] => src_1I6leBKfkWAXhDcHGy1NGIGl
+    [level3] => Array
+        (
+            [merchant_reference] => 5591
+            [shipping_amount] => 875
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3589
+                            [product_description] => Adpt-CNS
+                            [unit_cost] => 3465
+                            [quantity] => 10
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 64150
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-17T19:17:09+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Stripe PaymentIntent pi_3LtyoAKfkWAXhDcH1AkqIjtL succeeded for order 5591
+====End Log====
+
+
+2022-10-17T19:17:09+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LtyoAKfkWAXhDcH1KzXQMCc
+    [object] => charge
+    [amount] => 35525
+    [amount_captured] => 35525
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LtyoAKfkWAXhDcH1UL0MnG6
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Riverside
+                    [country] => US
+                    [line1] => 2401 NW platte road
+                    [line2] => 
+                    [postal_code] => 64150
+                    [state] => MO
+                )
+
+            [email] => phillipsfamilyrx@aol.com
+            [name] => Josie Phillips-Ross
+            [phone] => 14177669893
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666034227
+    [currency] => usd
+    [customer] => cus_I8VSOx1MR2n9hN
+    [description] => Metabolic Code - Order 762
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3589
+                            [product_description] => Adpt-CNS
+                            [quantity] => 10
+                            [tax_amount] => 0
+                            [unit_cost] => 3465
+                        )
+
+                )
+
+            [merchant_reference] => 5591
+            [shipping_address_zip] => 64150
+            [shipping_amount] => 875
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => phillipsfamilyrx@aol.com
+            [customer_name] => Josie Phillips-Ross
+            [order_id] => 762
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LtyoAKfkWAXhDcH1AkqIjtL
+    [payment_method] => src_1I6leBKfkWAXhDcHGy1NGIGl
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 8
+                    [exp_year] => 2024
+                    [fingerprint] => 686pK5zIFK8sF5j0
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 3827
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => phillipsfamilyrx@aol.com
+    [receipt_number] => 1217-9459
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gotdS2mgYyBsSsLpr51DosFqoUo2a9HSCx10OzONi2aCq0nIn4XrJfBqnfIsoiAEvNTldh-f9mSJi7uZk
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LtyoAKfkWAXhDcH1KzXQMCc/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Riverside
+                    [country] => US
+                    [line1] => 2401 NW platte road
+                    [line2] => 
+                    [postal_code] => 64150
+                    [state] => MO
+                )
+
+            [carrier] => 
+            [name] => Josie Phillips-Ross
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1I6leBKfkWAXhDcHGy1NGIGl
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 8
+                    [exp_year] => 2024
+                    [fingerprint] => 686pK5zIFK8sF5j0
+                    [funding] => credit
+                    [last4] => 3827
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_kxlx4VINcHyNK5ctjvlgBAqd
+            [created] => 1666034228
+            [currency] => 
+            [customer] => cus_I8VSOx1MR2n9hN
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Riverside
+                            [country] => US
+                            [line1] => 2401 NW platte road
+                            [line2] => 
+                            [postal_code] => 64150
+                            [state] => MO
+                        )
+
+                    [email] => phillipsfamilyrx@aol.com
+                    [name] => Josie Phillips-Ross
+                    [phone] => 14177669893
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-17T19:17:09+00:00 DEBUG 
+====Stripe Version: 6.8.0====
+====Start Log====
+balance/history/txn_3LtyoAKfkWAXhDcH1UL0MnG6
+====End Log====
+
+

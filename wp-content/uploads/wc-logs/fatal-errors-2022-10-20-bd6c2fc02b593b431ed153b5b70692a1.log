@@ -1,0 +1,45 @@
+2022-10-20T20:23:19+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php on line 308
+
+2022-10-20T20:27:49+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php on line 308
+
+2022-10-20T20:27:52+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php on line 308
+
+2022-10-20T21:12:44+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php on line 308
+
+2022-10-20T21:16:27+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php:308
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(2308): WKE_Image_Carousel_Widget->_register_controls()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_us in /nas/content/live/metabolicpro/wp-content/plugins/wpkit-elementor/includes/elementor/widgets/image-carousel.php on line 308
+

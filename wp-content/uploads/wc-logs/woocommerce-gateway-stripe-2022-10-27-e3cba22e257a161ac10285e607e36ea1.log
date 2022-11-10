@@ -1,0 +1,419 @@
+2022-10-27T13:09:32+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_IZCpx5EXjgmztz/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-27T13:09:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_IZCpx5EXjgmztz request: Array
+(
+    [email] => brett@integrativehcsolutions.com
+    [description] => Name: brett enabnit, Username: benabnit
+    [name] => brett enabnit
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-27T13:09:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Hy4Q5KfkWAXhDcH6JmlEYYv
+====End Log====
+
+
+2022-10-27T13:09:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5611 for the amount of 650.67
+====End Log====
+
+
+2022-10-27T13:09:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Hy4Q5KfkWAXhDcH6JmlEYYv
+    [amount] => 65067
+    [currency] => usd
+    [description] => Metabolic Code - Order 777
+    [metadata] => Array
+        (
+            [customer_name] => brett enabnit
+            [customer_email] => brett@integrativehcsolutions.com
+            [order_id] => 777
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_IZCpx5EXjgmztz
+    [shipping] => Array
+        (
+            [name] => brett enabnit
+            [address] => Array
+                (
+                    [line1] => 2350 whitesberg dr se
+                    [line2] => 
+                    [city] => Huntsville
+                    [country] => US
+                    [postal_code] => 35801
+                    [state] => AL
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-27T13:09:57+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxVqKKfkWAXhDcH1TPDCRFL initiated for order 5611
+====End Log====
+
+
+2022-10-27T13:09:57+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LxVqKKfkWAXhDcH1TPDCRFL/confirm request: Array
+(
+    [source] => src_1Hy4Q5KfkWAXhDcH6JmlEYYv
+    [level3] => Array
+        (
+            [merchant_reference] => 5611
+            [shipping_amount] => 999
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [unit_cost] => 2536
+                            [quantity] => 12
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2586
+                            [product_description] => Gut Brain Symbiotic
+                            [unit_cost] => 3306
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2755
+                            [product_description] => Prostate Complex
+                            [unit_cost] => 2300
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 35801
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-27T13:09:59+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxVqKKfkWAXhDcH1TPDCRFL succeeded for order 5611
+====End Log====
+
+
+2022-10-27T13:09:59+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LxVqKKfkWAXhDcH1JmE18o8
+    [object] => charge
+    [amount] => 65067
+    [amount_captured] => 65067
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LxVqKKfkWAXhDcH1dvHXQJw
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Huntsville
+                    [country] => US
+                    [line1] => 2350 whitesberg dr se
+                    [line2] => 
+                    [postal_code] => 35801
+                    [state] => AL
+                )
+
+            [email] => brett@integrativehcsolutions.com
+            [name] => morr car
+            [phone] => 2569903267
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666876197
+    [currency] => usd
+    [customer] => cus_IZCpx5EXjgmztz
+    [description] => Metabolic Code - Order 777
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [quantity] => 12
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2586
+                            [product_description] => Gut Brain Symbiotic
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [unit_cost] => 3306
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2755
+                            [product_description] => Prostate Complex
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [unit_cost] => 2300
+                        )
+
+                )
+
+            [merchant_reference] => 5611
+            [shipping_address_zip] => 35801
+            [shipping_amount] => 999
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => brett@integrativehcsolutions.com
+            [customer_name] => brett enabnit
+            [order_id] => 777
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LxVqKKfkWAXhDcH1TPDCRFL
+    [payment_method] => src_1Hy4Q5KfkWAXhDcH6JmlEYYv
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 4
+                    [exp_year] => 2023
+                    [fingerprint] => 9AMIA1BVLeJEmQED
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 7242
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => brett@integrativehcsolutions.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gop4bqmgYyBoNM0UmzdjosFhuETDS-nblPdVbE5JUjxhRf8zG_6H1irJK6OQEjQCgcZxI7poXiJYDCRps
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LxVqKKfkWAXhDcH1JmE18o8/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Huntsville
+                    [country] => US
+                    [line1] => 2350 whitesberg dr se
+                    [line2] => 
+                    [postal_code] => 35801
+                    [state] => AL
+                )
+
+            [carrier] => 
+            [name] => brett enabnit
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Hy4Q5KfkWAXhDcH6JmlEYYv
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 4
+                    [exp_year] => 2023
+                    [fingerprint] => 9AMIA1BVLeJEmQED
+                    [funding] => credit
+                    [last4] => 7242
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_spsNAlWeXgo9XlVygenTUnP5
+            [created] => 1666876198
+            [currency] => 
+            [customer] => cus_IZCpx5EXjgmztz
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Huntsville
+                            [country] => US
+                            [line1] => 2350 whitesberg dr se
+                            [line2] => 
+                            [postal_code] => 35801
+                            [state] => AL
+                        )
+
+                    [email] => brett@integrativehcsolutions.com
+                    [name] => morr car
+                    [phone] => 2569903267
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-27T13:09:59+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LxVqKKfkWAXhDcH1dvHXQJw
+====End Log====
+
+
+2022-10-27T21:45:37+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3LxdtHKfkWAXhDcH0cmTAWDn
+====End Log====
+
+

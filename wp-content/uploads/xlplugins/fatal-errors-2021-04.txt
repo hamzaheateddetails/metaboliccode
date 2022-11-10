@@ -1,0 +1,298 @@
+
+Apr 01, 2021 03.25.33: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 17.10.59: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 17.12.00: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 21.43.52: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 21.44.58: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 21.46.09: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 21.52.50: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 01, 2021 21.54.05: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 02, 2021 19.33.56: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 02, 2021 19.35.16: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 02.52.01: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 02.53.24: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 02.54.26: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 02.55.30: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 02.56.31: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.49.17: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.50.23: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.51.26: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.52.27: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.53.17: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.54.18: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 03.54.28: Uncaught Error: Call to undefined method ExactMetrics_License_Compat::get_license_type() in /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php:162
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(132): ExactMetrics_Notifications->verify(Array)
+#1 /nas/content/live/metabolicpro/wp-content/plugins/google-analytics-dashboard-for-wp/includes/admin/notifications.php(308): ExactMetrics_Notifications->fetch_feed()
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): ExactMetrics_Notifications->update()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /nas/content/live/metabolicpro/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /nas/content/live/metabolicpro/wp-cron.php(138): do_action_ref_array('exactmetrics_ad...', Array)
+#6 {main}
+  thrown
+
+Apr 03, 2021 04.23.45: Uncaught Error: Class 'codexpert\Woolementor\Admin' not found in /nas/content/live/metabolicpro/wp-content/plugins/woolementor/woolementor.php:190
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woolementor/woolementor.php(66): codexpert\Woolementor\Plugin->hooks()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/woolementor/woolementor.php(313): codexpert\Woolementor\Plugin->__construct()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/woolementor/woolementor.php(319): codexpert\Woolementor\Plugin::instance()
+#3 /nas/content/live/metabolicpro/wp-settings.php(391): include_once('/nas/content/li...')
+#4 /nas/content/live/metabolicpro/wp-config.php(127): require_once('/nas/content/li...')
+#5 /nas/content/live/metabolicpro/wp-load.php(37): require_once('/nas/content/li...')
+#6 /nas/content/live/metabolicpro/wp-admin/admin-ajax.php(22): require_once('/nas/content/li...')
+#7 {main}
+  thrown
+
+Apr 03, 2021 04.23.53: Uncaught Error: Class 'codexpert\Woolementor_Pro\Front' not found in /nas/content/live/metabolicpro/wp-content/plugins/woolementor-pro/woolementor-pro.php:137
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woolementor-pro/woolementor-pro.php(49): codexpert\Woolementor_Pro\Plugin->hooks()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/woolementor-pro/woolementor-pro.php(205): codexpert\Woolementor_Pro\Plugin->__construct()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/woolementor-pro/woolementor-pro.php(211): codexpert\Woolementor_Pro\Plugin::instance()
+#3 /nas/content/live/metabolicpro/wp-settings.php(391): include_once('/nas/content/li...')
+#4 /nas/content/live/metabolicpro/wp-config.php(127): require_once('/nas/content/li...')
+#5 /nas/content/live/metabolicpro/wp-load.php(37): require_once('/nas/content/li...')
+#6 /nas/content/live/metabolicpro/wp-admin/admin-ajax.php(22): require_once('/nas/content/li...')
+#7 {main}
+  thrown
+
+Apr 03, 2021 04.24.12: Uncaught Error: Call to a member function withArgument() on null in /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/Engine/Media/ServiceProvider.php:45
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/Engine/Container/ServiceProvider/ServiceProviderAggregate.php(84): WP_Rocket\Engine\Media\ServiceProvider->register()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/Engine/Container/Container.php(88): WP_Rocket\Engine\Container\ServiceProvider\ServiceProviderAggregate->register('embeds_subscrib...')
+#2 /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/Plugin.php(115): WP_Rocket\Engine\Container\Container->get('embeds_subscrib...')
+#3 /nas/content/live/metabolicpro/wp-content/plugins/wp-rocket/inc/main.php(48): WP_Rocket\Plugin->load()
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): rocket_init('')
+#5 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /nas/c
+
+Apr 15, 2021 22.13.27: Uncaught Error: Class 'Leadin\options\AccountOptions' not found in /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/admin/class-links.php:205
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/admin/class-adminconstants.php(64): Leadin\admin\Links::get_background_iframe_src()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/class-assetsmanager.php(94): Leadin\admin\AdminConstants::get_background_leadin_config()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/admin/class-gutenberg.php(44): Leadin\AssetsManager::localize_gutenberg()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Leadin\admin\Gutenberg->register_gutenberg_block('')
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /nas/content/live/metabolicpro/wp-settings.php(560): do_action('init')
+#7 /nas/content/live/metab
+
+Apr 15, 2021 22.13.27: Uncaught Error: Class 'Leadin\options\AccountOptions' not found in /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/admin/class-links.php:205
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/admin/class-adminconstants.php(64): Leadin\admin\Links::get_background_iframe_src()
+#1 /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/class-assetsmanager.php(94): Leadin\admin\AdminConstants::get_background_leadin_config()
+#2 /nas/content/live/metabolicpro/wp-content/plugins/leadin/src/admin/class-gutenberg.php(44): Leadin\AssetsManager::localize_gutenberg()
+#3 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(292): Leadin\admin\Gutenberg->register_gutenberg_block('')
+#4 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /nas/content/live/metabolicpro/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /nas/content/live/metabolicpro/wp-settings.php(560): do_action('init')
+#7 /nas/content/live/metab

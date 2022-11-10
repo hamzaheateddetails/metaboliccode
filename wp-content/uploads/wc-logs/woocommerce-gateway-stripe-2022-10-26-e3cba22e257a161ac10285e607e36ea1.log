@@ -1,0 +1,1828 @@
+2022-10-26T16:46:18+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LNgTDKfkWAXhDcH0MQnZ4ck?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-26T16:49:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LNgTDKfkWAXhDcH0MQnZ4ck?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+
+2022-10-26T16:49:51+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_Lkchz5D5hnieHK/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-26T16:50:22+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_Lkchz5D5hnieHK request: Array
+(
+    [email] => vibrantwithin@gmail.com
+    [description] => Name: hanna Hendrickson, Username: hannahendrickson
+    [name] => hanna Hendrickson
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T16:50:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1L37SIKfkWAXhDcHfrQAeoTF
+====End Log====
+
+
+2022-10-26T16:50:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5607 for the amount of 81.53
+====End Log====
+
+
+2022-10-26T16:50:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1L37SIKfkWAXhDcHfrQAeoTF
+    [amount] => 8153
+    [currency] => usd
+    [description] => Metabolic Code - Order 773
+    [metadata] => Array
+        (
+            [customer_name] => hanna Hendrickson
+            [customer_email] => vibrantwithin@gmail.com
+            [order_id] => 773
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_Lkchz5D5hnieHK
+    [shipping] => Array
+        (
+            [name] => hanna Hendrickson
+            [address] => Array
+                (
+                    [line1] => Po box 351 351
+                    [line2] => 351
+                    [city] => davenport
+                    [country] => US
+                    [postal_code] => 99122
+                    [state] => WA
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T16:50:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxCo7KfkWAXhDcH1DjVCbHY initiated for order 5607
+====End Log====
+
+
+2022-10-26T16:50:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LxCo7KfkWAXhDcH1DjVCbHY/confirm request: Array
+(
+    [source] => src_1L37SIKfkWAXhDcHfrQAeoTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5607
+            [shipping_amount] => 1085
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [unit_cost] => 3534
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 99122
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T16:50:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxCo7KfkWAXhDcH1DjVCbHY succeeded for order 5607
+====End Log====
+
+
+2022-10-26T16:50:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LxCo7KfkWAXhDcH1JclTZoC
+    [object] => charge
+    [amount] => 8153
+    [amount_captured] => 8153
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LxCo7KfkWAXhDcH1Z9UarPu
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => davenport
+                    [country] => US
+                    [line1] => 20195 Coal Springs rd n
+                    [line2] => 351
+                    [postal_code] => 99122
+                    [state] => WA
+                )
+
+            [email] => vibrantwithin@gmail.com
+            [name] => hanna Hendrickson 
+            [phone] => 3609040427
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666803024
+    [currency] => usd
+    [customer] => cus_Lkchz5D5hnieHK
+    [description] => Metabolic Code - Order 773
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 3534
+                        )
+
+                )
+
+            [merchant_reference] => 5607
+            [shipping_address_zip] => 99122
+            [shipping_amount] => 1085
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => vibrantwithin@gmail.com
+            [customer_name] => hanna Hendrickson
+            [order_id] => 773
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LxCo7KfkWAXhDcH1DjVCbHY
+    [payment_method] => src_1L37SIKfkWAXhDcHfrQAeoTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => fail
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2024
+                    [fingerprint] => eseBKJEcNaEwEt4O
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 6503
+                    [mandate] => 
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => vibrantwithin@gmail.com
+    [receipt_number] => 1274-1903
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go0srlmgYyBsCYsstPLjosFqq87w-Jsghpe0QwpHliDltutlfymhur48XFbhlRP5qfxGw6-9mevMPk-Ac
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LxCo7KfkWAXhDcH1JclTZoC/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => davenport
+                    [country] => US
+                    [line1] => Po box 351 351
+                    [line2] => 351
+                    [postal_code] => 99122
+                    [state] => WA
+                )
+
+            [carrier] => 
+            [name] => hanna Hendrickson
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1L37SIKfkWAXhDcHfrQAeoTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => fail
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2024
+                    [fingerprint] => eseBKJEcNaEwEt4O
+                    [funding] => credit
+                    [last4] => 6503
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_f4EInAAJBeVPK3b7vyGmHmzN
+            [created] => 1666803025
+            [currency] => 
+            [customer] => cus_Lkchz5D5hnieHK
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => davenport
+                            [country] => US
+                            [line1] => 20195 Coal Springs rd n
+                            [line2] => 351
+                            [postal_code] => 99122
+                            [state] => WA
+                        )
+
+                    [email] => vibrantwithin@gmail.com
+                    [name] => hanna Hendrickson 
+                    [phone] => 3609040427
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-26T16:50:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LxCo7KfkWAXhDcH1Z9UarPu
+====End Log====
+
+
+2022-10-26T17:57:40+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_LHjglj8nKOvwia/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-26T17:58:22+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_LHjglj8nKOvwia request: Array
+(
+    [email] => terri.deneui@evexiasmedical.com
+    [description] => Name: DeNeui Terri, Username: terri.deneui@evexiasmedical.com
+    [name] => DeNeui Terri
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T17:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1LL72eKfkWAXhDcHSSQYlMQH
+====End Log====
+
+
+2022-10-26T17:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5608 for the amount of 1572.14
+====End Log====
+
+
+2022-10-26T17:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1LL72eKfkWAXhDcHSSQYlMQH
+    [amount] => 157214
+    [currency] => usd
+    [description] => Metabolic Code - Order 774
+    [metadata] => Array
+        (
+            [customer_name] => DeNeui Terri
+            [customer_email] => terri.deneui@evexiasmedical.com
+            [order_id] => 774
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_LHjglj8nKOvwia
+    [shipping] => Array
+        (
+            [name] => DeNeui Terri
+            [address] => Array
+                (
+                    [line1] => 920 S Kimball Ave Ste 140
+                    [line2] => 
+                    [city] => Southlake
+                    [country] => US
+                    [postal_code] => 76092
+                    [state] => TX
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T17:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxDrvKfkWAXhDcH0wB4KRyk initiated for order 5608
+====End Log====
+
+
+2022-10-26T17:58:23+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LxDrvKfkWAXhDcH0wB4KRyk/confirm request: Array
+(
+    [source] => src_1LL72eKfkWAXhDcHSSQYlMQH
+    [level3] => Array
+        (
+            [merchant_reference] => 5608
+            [shipping_amount] => 999
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3589
+                            [product_description] => Adpt-CNS
+                            [unit_cost] => 3465
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2530
+                            [product_description] => Adrenal Cortex Extract
+                            [unit_cost] => 2250
+                            [quantity] => 8
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [unit_cost] => 2536
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2664
+                            [product_description] => Pro Muscle Calm
+                            [unit_cost] => 1785
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [product_code] => 2760
+                            [product_description] => Pro ONCE Daily
+                            [unit_cost] => 2986
+                            [quantity] => 7
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [unit_cost] => 3401
+                            [quantity] => 12
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [unit_cost] => 2536
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [product_code] => 2019
+                            [product_description] => TheAva
+                            [unit_cost] => 3564
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [8] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [9] => stdClass Object
+                        (
+                            [product_code] => 2667
+                            [product_description] => Stop Inflammation
+                            [unit_cost] => 2206
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [10] => stdClass Object
+                        (
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [unit_cost] => 3534
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [11] => stdClass Object
+                        (
+                            [product_code] => 3826
+                            [product_description] => Ultra Pure Thai Ginseng
+                            [unit_cost] => 1446
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [12] => stdClass Object
+                        (
+                            [product_code] => 2750
+                            [product_description] => Ultra Pure Liver Concentra
+                            [unit_cost] => 3290
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [13] => stdClass Object
+                        (
+                            [product_code] => 2619
+                            [product_description] => Pro C Drink, Regular
+                            [unit_cost] => 2664
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 76092
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T17:58:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxDrvKfkWAXhDcH0wB4KRyk succeeded for order 5608
+====End Log====
+
+
+2022-10-26T17:58:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LxDrvKfkWAXhDcH0qA90uEB
+    [object] => charge
+    [amount] => 157214
+    [amount_captured] => 157214
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LxDrvKfkWAXhDcH0xmVmnL1
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Southlake
+                    [country] => US
+                    [line1] => 920 S Kimball Ave Ste 140  
+                    [line2] => 
+                    [postal_code] => 76092
+                    [state] => TX
+                )
+
+            [email] => terri.deneui@evexiasmedical.com
+            [name] => DeNeui Terri
+            [phone] => 817-328-8376
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666807104
+    [currency] => usd
+    [customer] => cus_LHjglj8nKOvwia
+    [description] => Metabolic Code - Order 774
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3589
+                            [product_description] => Adpt-CNS
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [unit_cost] => 3465
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2530
+                            [product_description] => Adrenal Cortex Extract
+                            [quantity] => 8
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2664
+                            [product_description] => Pro Muscle Calm
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1785
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2760
+                            [product_description] => Pro ONCE Daily
+                            [quantity] => 7
+                            [tax_amount] => 0
+                            [unit_cost] => 2986
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [quantity] => 12
+                            [tax_amount] => 0
+                            [unit_cost] => 3401
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [quantity] => 6
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2019
+                            [product_description] => TheAva
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [unit_cost] => 3564
+                        )
+
+                    [8] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 4
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                    [9] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2667
+                            [product_description] => Stop Inflammation
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2206
+                        )
+
+                    [10] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2758
+                            [product_description] => T-Time
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3534
+                        )
+
+                    [11] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3826
+                            [product_description] => Ultra Pure Thai Ginseng
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1446
+                        )
+
+                    [12] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2750
+                            [product_description] => Ultra Pure Liver Concentra
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3290
+                        )
+
+                    [13] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2619
+                            [product_description] => Pro C Drink, Regular
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2664
+                        )
+
+                )
+
+            [merchant_reference] => 5608
+            [shipping_address_zip] => 76092
+            [shipping_amount] => 999
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => terri.deneui@evexiasmedical.com
+            [customer_name] => DeNeui Terri
+            [order_id] => 774
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LxDrvKfkWAXhDcH0wB4KRyk
+    [payment_method] => src_1LL72eKfkWAXhDcHSSQYlMQH
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 11
+                    [exp_year] => 2026
+                    [fingerprint] => xM2MGwYBYNBrpIn2
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1240
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => terri.deneui@evexiasmedical.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gowurlmgYyBny3rRScXjosFkQFiYRB1LLsWj08Pa6IWzs-L5dpCCGpCD1o-lAY2G6GjxWm9xI0WSn9E1s
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LxDrvKfkWAXhDcH0qA90uEB/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Southlake
+                    [country] => US
+                    [line1] => 920 S Kimball Ave Ste 140
+                    [line2] => 
+                    [postal_code] => 76092
+                    [state] => TX
+                )
+
+            [carrier] => 
+            [name] => DeNeui Terri
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1LL72eKfkWAXhDcHSSQYlMQH
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 11
+                    [exp_year] => 2026
+                    [fingerprint] => xM2MGwYBYNBrpIn2
+                    [funding] => credit
+                    [last4] => 1240
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_e4TZcPbkO0gYe6o7j3D9CtYZ
+            [created] => 1666807105
+            [currency] => 
+            [customer] => cus_LHjglj8nKOvwia
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Southlake
+                            [country] => US
+                            [line1] => 920 S Kimball Ave Ste 140  
+                            [line2] => 
+                            [postal_code] => 76092
+                            [state] => TX
+                        )
+
+                    [email] => terri.deneui@evexiasmedical.com
+                    [name] => DeNeui Terri
+                    [phone] => 817-328-8376
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-26T17:58:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LxDrvKfkWAXhDcH0xmVmnL1
+====End Log====
+
+
+2022-10-26T20:46:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_LHjglj8nKOvwia/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-26T20:46:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_LHjglj8nKOvwia request: Array
+(
+    [email] => terri.deneui@evexiasmedical.com
+    [description] => Name: DeNeui Terri, Username: terri.deneui@evexiasmedical.com
+    [name] => DeNeui Terri
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T20:46:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1KdgtvKfkWAXhDcHEd8E9hoT
+====End Log====
+
+
+2022-10-26T20:46:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5609 for the amount of 175.65
+====End Log====
+
+
+2022-10-26T20:46:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1KdgtvKfkWAXhDcHEd8E9hoT
+    [amount] => 17565
+    [currency] => usd
+    [description] => Metabolic Code - Order 775
+    [metadata] => Array
+        (
+            [customer_name] => DeNeui Terri
+            [customer_email] => terri.deneui@evexiasmedical.com
+            [order_id] => 775
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_LHjglj8nKOvwia
+    [shipping] => Array
+        (
+            [name] => DeNeui Terri
+            [address] => Array
+                (
+                    [line1] => 920 S Kimball Ave Ste 140
+                    [line2] => 
+                    [city] => Southlake
+                    [country] => US
+                    [postal_code] => 76092
+                    [state] => TX
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T20:46:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxGV2KfkWAXhDcH1Vv31kvC initiated for order 5609
+====End Log====
+
+
+2022-10-26T20:46:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LxGV2KfkWAXhDcH1Vv31kvC/confirm request: Array
+(
+    [source] => src_1KdgtvKfkWAXhDcHEd8E9hoT
+    [level3] => Array
+        (
+            [merchant_reference] => 5609
+            [shipping_amount] => 1450
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2583
+                            [product_description] => Pro Flora Max+
+                            [unit_cost] => 3223
+                            [quantity] => 5
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 76092
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T20:46:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxGV2KfkWAXhDcH1Vv31kvC succeeded for order 5609
+====End Log====
+
+
+2022-10-26T20:46:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LxGV2KfkWAXhDcH1pd56cwe
+    [object] => charge
+    [amount] => 17565
+    [amount_captured] => 17565
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LxGV2KfkWAXhDcH1yhdnbnf
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Southlake
+                    [country] => US
+                    [line1] => 920 S Kimball Ave Ste 140
+                    [line2] => 
+                    [postal_code] => 76092
+                    [state] => TX
+                )
+
+            [email] => terri.deneui@evexiasmedical.com
+            [name] => DeNeui Terri
+            [phone] => 817-328-8376
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666817216
+    [currency] => usd
+    [customer] => cus_LHjglj8nKOvwia
+    [description] => Metabolic Code - Order 775
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2583
+                            [product_description] => Pro Flora Max+
+                            [quantity] => 5
+                            [tax_amount] => 0
+                            [unit_cost] => 3223
+                        )
+
+                )
+
+            [merchant_reference] => 5609
+            [shipping_address_zip] => 76092
+            [shipping_amount] => 1450
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => terri.deneui@evexiasmedical.com
+            [customer_name] => DeNeui Terri
+            [order_id] => 775
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LxGV2KfkWAXhDcH1Vv31kvC
+    [payment_method] => src_1KdgtvKfkWAXhDcHEd8E9hoT
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2022
+                    [fingerprint] => s5L5EYkGW2ECbyUf
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 2008
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => terri.deneui@evexiasmedical.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0gowrnmmgYyBoiCkXMSkjosFgIQvgdCu7YT9JCBduIypTulIPW9YZbOTLvUF3lFB-Mr_VTLcs3OQKGZYfo
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LxGV2KfkWAXhDcH1pd56cwe/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Southlake
+                    [country] => US
+                    [line1] => 920 S Kimball Ave Ste 140
+                    [line2] => 
+                    [postal_code] => 76092
+                    [state] => TX
+                )
+
+            [carrier] => 
+            [name] => DeNeui Terri
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1KdgtvKfkWAXhDcHEd8E9hoT
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2022
+                    [fingerprint] => s5L5EYkGW2ECbyUf
+                    [funding] => credit
+                    [last4] => 2008
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_rMraw6yZZa1Mww3Xkdzal8En
+            [created] => 1666817217
+            [currency] => 
+            [customer] => cus_LHjglj8nKOvwia
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Southlake
+                            [country] => US
+                            [line1] => 920 S Kimball Ave Ste 140
+                            [line2] => 
+                            [postal_code] => 76092
+                            [state] => TX
+                        )
+
+                    [email] => terri.deneui@evexiasmedical.com
+                    [name] => DeNeui Terri
+                    [phone] => 817-328-8376
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-26T20:46:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LxGV2KfkWAXhDcH1yhdnbnf
+====End Log====
+
+
+2022-10-26T20:53:26+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-26T20:54:03+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T20:54:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-26T20:54:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5610 for the amount of 172.91
+====End Log====
+
+
+2022-10-26T20:54:04+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 17291
+    [currency] => usd
+    [description] => Metabolic Code - Order 776
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 776
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Melissa DiThomas
+            [address] => Array
+                (
+                    [line1] => 132 Charleston Oak Lane
+                    [line2] => 
+                    [city] => Greenville
+                    [country] => US
+                    [postal_code] => 29615
+                    [state] => SC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T20:54:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxGbwKfkWAXhDcH1bGfz0qI initiated for order 5610
+====End Log====
+
+
+2022-10-26T20:54:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3LxGbwKfkWAXhDcH1bGfz0qI/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5610
+            [shipping_amount] => 1686
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [unit_cost] => 3401
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2545
+                            [product_description] => Fatty Acid Assist
+                            [unit_cost] => 2067
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 3597
+                            [product_description] => HemePlex
+                            [unit_cost] => 1169
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2713
+                            [product_description] => S-Acetyl Glutathione
+                            [unit_cost] => 3500
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 29615
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-26T20:54:07+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3LxGbwKfkWAXhDcH1bGfz0qI succeeded for order 5610
+====End Log====
+
+
+2022-10-26T20:54:07+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3LxGbwKfkWAXhDcH1vwrVxqG
+    [object] => charge
+    [amount] => 17291
+    [amount_captured] => 17291
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3LxGbwKfkWAXhDcH1By4g7f7
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666817645
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 776
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3369
+                            [product_description] => QuiCalm
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 3401
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2545
+                            [product_description] => Fatty Acid Assist
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 2067
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3597
+                            [product_description] => HemePlex
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1169
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2713
+                            [product_description] => S-Acetyl Glutathione
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3500
+                        )
+
+                )
+
+            [merchant_reference] => 5610
+            [shipping_address_zip] => 29615
+            [shipping_amount] => 1686
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 776
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3LxGbwKfkWAXhDcH1bGfz0qI
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go77zmmgYyBj19DHsh5DosFvRXsVx8wySx2NeXvXZLrKemCEEniG2EJ7pNHnigTaXTw9fXjs2f7J9QjSc
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3LxGbwKfkWAXhDcH1vwrVxqG/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Greenville
+                    [country] => US
+                    [line1] => 132 Charleston Oak Lane
+                    [line2] => 
+                    [postal_code] => 29615
+                    [state] => SC
+                )
+
+            [carrier] => 
+            [name] => Melissa DiThomas
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1666817646
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-26T20:54:07+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3LxGbwKfkWAXhDcH1By4g7f7
+====End Log====
+
+

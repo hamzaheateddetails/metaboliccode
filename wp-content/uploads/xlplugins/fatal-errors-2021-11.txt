@@ -1,0 +1,39 @@
+
+Nov 02, 2021 01.56.57: Uncaught Error: Class 'ActionScheduler_Store_Deprecated' not found in /nas/content/live/metabolicpro/wp-content/plugins/seo-by-rank-math/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:7
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/seo-by-rank-math/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(122): include()
+#1 [internal function]: ActionScheduler::autoload('ActionScheduler...')
+#2 /nas/content/live/metabolicpro/wp-content/plugins/seo-by-rank-math/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(25): spl_autoload_call('ActionScheduler...')
+#3 /nas/content/live/metabolicpro/wp-content/plugins/seo-by-rank-math/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#4 /nas/content/live/metabolicpro/wp-content/plugins/seo-by-rank-math/vendor/woocommerce/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/nas/content/li...')
+#5 /nas/content/live
+
+Nov 02, 2021 15.30.59: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Nov 02, 2021 17.26.45: Allowed memory size of 536870912 bytes exhausted (tried to allocate 77764552 bytes)
+
+Nov 03, 2021 21.09.49: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Nov 03, 2021 21.12.23: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Nov 03, 2021 22.00.07: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Nov 03, 2021 22.50.14: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Nov 03, 2021 23.04.52: Allowed memory size of 536870912 bytes exhausted (tried to allocate 48238592 bytes)
+
+Nov 13, 2021 00.52.51: Allowed memory size of 536870912 bytes exhausted (tried to allocate 23072768 bytes)
+
+Nov 16, 2021 20.11.02: Uncaught Error: Call to undefined function codexpert\Woolementor\woolementor_get_widget_id() in /nas/content/live/metabolicpro/wp-content/plugins/woolementor/widgets/shop-classic/shop-classic.php:23
+Stack trace:
+#0 /nas/content/live/metabolicpro/wp-content/plugins/woolementor/src/Widgets.php(106): codexpert\Woolementor\Shop_Classic->__construct()
+#1 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(303): Codexpert\Woolementor\Widgets->register_widgets(Object(Elementor\Widgets_Manager))
+#2 /nas/content/live/metabolicpro/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /nas/content/live/metabolicpro/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#5 /nas/content/live/metabolicpro/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#6 /nas/content/live/
+
+Nov 17, 2021 22.18.22: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+
+Nov 17, 2021 22.21.52: Allowed memory size of 536870912 bytes exhausted (tried to allocate 40960 bytes)

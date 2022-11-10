@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/OpenSans-Normal",
+        "bold": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/OpenSans-Bold",
+        "italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/Segoe-Normal",
+        "bold": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/Segoe-Bold",
+        "italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/Segoe-Italic",
+        "bold_italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/RobotoSlab-Normal",
+        "bold": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/RobotoSlab-Bold",
+        "italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/currencies",
+        "bold": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/currencies",
+        "italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/currencies",
+        "bold_italic": "\/nas\/content\/live\/metabolicpro\/wp-content\/uploads\/wpo_wcpdf\/fonts\/currencies"
+    }
+}

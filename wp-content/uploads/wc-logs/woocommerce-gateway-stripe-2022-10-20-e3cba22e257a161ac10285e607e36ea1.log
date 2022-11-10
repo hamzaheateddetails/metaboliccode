@@ -1,0 +1,1615 @@
+2022-10-20T17:11:21+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-20T17:11:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T17:11:54+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-20T17:11:54+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5596 for the amount of 35.35
+====End Log====
+
+
+2022-10-20T17:11:54+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 3535
+    [currency] => usd
+    [description] => Metabolic Code - Order 765
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 765
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Zeid Keilani
+            [address] => Array
+                (
+                    [line1] => 4711 Norwood Road
+                    [line2] => 
+                    [city] => Columbia
+                    [country] => US
+                    [postal_code] => 29206
+                    [state] => SC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T17:11:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv2HeKfkWAXhDcH1W6VB8b5 initiated for order 5596
+====End Log====
+
+
+2022-10-20T17:11:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lv2HeKfkWAXhDcH1W6VB8b5/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5596
+            [shipping_amount] => 999
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [unit_cost] => 2536
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 29206
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T17:11:57+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv2HeKfkWAXhDcH1W6VB8b5 succeeded for order 5596
+====End Log====
+
+
+2022-10-20T17:11:57+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lv2HeKfkWAXhDcH1Ir2O6ah
+    [object] => charge
+    [amount] => 3535
+    [amount_captured] => 3535
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lv2HeKfkWAXhDcH1OBDzIF2
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666285915
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 765
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2016
+                            [product_description] => Deep Blue Sleep
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                )
+
+            [merchant_reference] => 5596
+            [shipping_address_zip] => 29206
+            [shipping_amount] => 999
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 765
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lv2HeKfkWAXhDcH1W6VB8b5
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go3YLGmgYyBks4RlVlLzosFrt92dz02RhXQLYbsxRSuLJeHvM7Z5SmIeaFY5qBkDJuvYKXL6dltwuQm1Q
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lv2HeKfkWAXhDcH1Ir2O6ah/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Columbia
+                    [country] => US
+                    [line1] => 4711 Norwood Road
+                    [line2] => 
+                    [postal_code] => 29206
+                    [state] => SC
+                )
+
+            [carrier] => 
+            [name] => Zeid Keilani
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1666285917
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-20T17:11:57+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lv2HeKfkWAXhDcH1OBDzIF2
+====End Log====
+
+
+2022-10-20T19:23:31+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-20T19:24:54+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:24:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-20T19:24:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5597 for the amount of 245.37
+====End Log====
+
+
+2022-10-20T19:24:55+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 24537
+    [currency] => usd
+    [description] => Metabolic Code - Order 766
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 766
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Christopher Larsen
+            [address] => Array
+                (
+                    [line1] => 132 MCCAULEY DR
+                    [line2] => 
+                    [city] => Asheville
+                    [country] => US
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:24:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv4MNKfkWAXhDcH19nVvHjr initiated for order 5597
+====End Log====
+
+
+2022-10-20T19:24:56+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lv4MNKfkWAXhDcH19nVvHjr/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5597
+            [shipping_amount] => 0
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2755
+                            [product_description] => Prostate Complex
+                            [unit_cost] => 2300
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 3113
+                            [product_description] => 3B Complex
+                            [unit_cost] => 1674
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2559
+                            [product_description] => Mitochondrial & Energy Ass
+                            [unit_cost] => 2557
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2667
+                            [product_description] => Stop Inflammation
+                            [unit_cost] => 2206
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 28803
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:24:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv4MNKfkWAXhDcH19nVvHjr succeeded for order 5597
+====End Log====
+
+
+2022-10-20T19:24:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lv4MNKfkWAXhDcH1YAlWMuZ
+    [object] => charge
+    [amount] => 24537
+    [amount_captured] => 24537
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lv4MNKfkWAXhDcH1iiE761E
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666293897
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 766
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2755
+                            [product_description] => Prostate Complex
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [unit_cost] => 2300
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3113
+                            [product_description] => 3B Complex
+                            [quantity] => 2
+                            [tax_amount] => 0
+                            [unit_cost] => 1674
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2559
+                            [product_description] => Mitochondrial & Energy Ass
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [unit_cost] => 2557
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2667
+                            [product_description] => Stop Inflammation
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [unit_cost] => 2206
+                        )
+
+                )
+
+            [merchant_reference] => 5597
+            [shipping_address_zip] => 28803
+            [shipping_amount] => 0
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 766
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lv4MNKfkWAXhDcH19nVvHjr
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0goisHGmgYyBnJ3g2VRczosFsLCsdDW-tgWyyBzBhBkMtPUoqEaEaWRT5C_-ytjB45lN5ugYByxLqT8xMY
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lv4MNKfkWAXhDcH1YAlWMuZ/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 132 MCCAULEY DR
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [carrier] => 
+            [name] => Christopher Larsen
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1666293898
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-20T19:24:58+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lv4MNKfkWAXhDcH1iiE761E
+====End Log====
+
+
+2022-10-20T19:25:30+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_JiQm1Lmi1K60su/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-20T19:26:05+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_JiQm1Lmi1K60su request: Array
+(
+    [email] => smaas20@yahoo.com
+    [description] => Name: Scott Marsteller, Username: smaas20
+    [name] => Scott Marsteller
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:26:06+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1L3OhlKfkWAXhDcHsR0F2jlj
+====End Log====
+
+
+2022-10-20T19:26:06+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5598 for the amount of 80.58
+====End Log====
+
+
+2022-10-20T19:26:06+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1L3OhlKfkWAXhDcHsR0F2jlj
+    [amount] => 8058
+    [currency] => usd
+    [description] => Metabolic Code - Order 767
+    [metadata] => Array
+        (
+            [customer_name] => Scott Marsteller
+            [customer_email] => smaas20@yahoo.com
+            [order_id] => 767
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_JiQm1Lmi1K60su
+    [shipping] => Array
+        (
+            [name] => Scott Marsteller
+            [address] => Array
+                (
+                    [line1] => 901 Ridgewood Ct
+                    [line2] => 
+                    [city] => CONNERSVILLE
+                    [country] => US
+                    [postal_code] => 47331-1264
+                    [state] => IN
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:26:07+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv4NWKfkWAXhDcH0W0uNgdt initiated for order 5598
+====End Log====
+
+
+2022-10-20T19:26:07+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lv4NWKfkWAXhDcH0W0uNgdt/confirm request: Array
+(
+    [source] => src_1L3OhlKfkWAXhDcHsR0F2jlj
+    [level3] => Array
+        (
+            [merchant_reference] => 5598
+            [shipping_amount] => 450
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [unit_cost] => 2536
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 47331-1264
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:26:09+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv4NWKfkWAXhDcH0W0uNgdt succeeded for order 5598
+====End Log====
+
+
+2022-10-20T19:26:09+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lv4NWKfkWAXhDcH0z81xSPB
+    [object] => charge
+    [amount] => 8058
+    [amount_captured] => 8058
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lv4NWKfkWAXhDcH0FfrtB68
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => CONNERSVILLE
+                    [country] => US
+                    [line1] => 901 Ridgewood Ct 
+                    [line2] => 
+                    [postal_code] => 47331-1264
+                    [state] => IN
+                )
+
+            [email] => smaas20@yahoo.com
+            [name] => Scott Marsteller
+            [phone] => 7655809387
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666293967
+    [currency] => usd
+    [customer] => cus_JiQm1Lmi1K60su
+    [description] => Metabolic Code - Order 767
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2605
+                            [product_description] => ReBiosis
+                            [quantity] => 3
+                            [tax_amount] => 0
+                            [unit_cost] => 2536
+                        )
+
+                )
+
+            [merchant_reference] => 5598
+            [shipping_address_zip] => 47331-1264
+            [shipping_amount] => 450
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => smaas20@yahoo.com
+            [customer_name] => Scott Marsteller
+            [order_id] => 767
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lv4NWKfkWAXhDcH0W0uNgdt
+    [payment_method] => src_1L3OhlKfkWAXhDcHsR0F2jlj
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2026
+                    [fingerprint] => MOaSxxWao7Os5SiM
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 6351
+                    [mandate] => 
+                    [network] => mastercard
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => smaas20@yahoo.com
+    [receipt_number] => 1027-2453
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0go0cHGmgYyBsXdjjXhBTosFja3VPmA0xjJRGQlPJbb-nJASDbGUR4ZCGNskQbmz618IBP11d6WUhf_6i4
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lv4NWKfkWAXhDcH0z81xSPB/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => CONNERSVILLE
+                    [country] => US
+                    [line1] => 901 Ridgewood Ct
+                    [line2] => 
+                    [postal_code] => 47331-1264
+                    [state] => IN
+                )
+
+            [carrier] => 
+            [name] => Scott Marsteller
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1L3OhlKfkWAXhDcHsR0F2jlj
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => MasterCard
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 12
+                    [exp_year] => 2026
+                    [fingerprint] => MOaSxxWao7Os5SiM
+                    [funding] => credit
+                    [last4] => 6351
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_ZOOz8uWsiz1j9usDhd3Rv8Rq
+            [created] => 1666293968
+            [currency] => 
+            [customer] => cus_JiQm1Lmi1K60su
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => CONNERSVILLE
+                            [country] => US
+                            [line1] => 901 Ridgewood Ct 
+                            [line2] => 
+                            [postal_code] => 47331-1264
+                            [state] => IN
+                        )
+
+                    [email] => smaas20@yahoo.com
+                    [name] => Scott Marsteller
+                    [phone] => 7655809387
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-20T19:26:09+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lv4NWKfkWAXhDcH0FfrtB68
+====End Log====
+
+
+2022-10-20T19:28:44+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-10-20T19:29:44+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+customers/cus_L5g3JTqZyIWZM3 request: Array
+(
+    [email] => manager@ohhmd.com
+    [description] => Name: Douglas Lucas, Username: Douglas.Lucas
+    [name] => Douglas Lucas
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:29:44+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+sources/src_1Kj0fTKfkWAXhDcHwE7bfLTF
+====End Log====
+
+
+2022-10-20T19:29:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Info: Begin processing payment for order 5599 for the amount of 128.62
+====End Log====
+
+
+2022-10-20T19:29:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [amount] => 12862
+    [currency] => usd
+    [description] => Metabolic Code - Order 768
+    [metadata] => Array
+        (
+            [customer_name] => Douglas Lucas
+            [customer_email] => manager@ohhmd.com
+            [order_id] => 768
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_L5g3JTqZyIWZM3
+    [shipping] => Array
+        (
+            [name] => Kathleen Boyd
+            [address] => Array
+                (
+                    [line1] => 4924 Orchard Bench Road
+                    [line2] => 
+                    [city] => Basin
+                    [country] => US
+                    [postal_code] => 82410
+                    [state] => WY
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:29:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv4R3KfkWAXhDcH0yqQ06Y7 initiated for order 5599
+====End Log====
+
+
+2022-10-20T19:29:45+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+payment_intents/pi_3Lv4R3KfkWAXhDcH0yqQ06Y7/confirm request: Array
+(
+    [source] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [level3] => Array
+        (
+            [merchant_reference] => 5599
+            [shipping_amount] => 1692
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 3589
+                            [product_description] => Adpt-CNS
+                            [unit_cost] => 3465
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [product_code] => 2700
+                            [product_description] => O-Mega 800
+                            [unit_cost] => 3775
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [unit_cost] => 1680
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [unit_cost] => 2250
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 82410
+            [shipping_from_zip] => 45202
+        )
+
+)
+
+====End Log====
+
+
+2022-10-20T19:29:48+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Stripe PaymentIntent pi_3Lv4R3KfkWAXhDcH0yqQ06Y7 succeeded for order 5599
+====End Log====
+
+
+2022-10-20T19:29:48+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3Lv4R3KfkWAXhDcH0WIM68fr
+    [object] => charge
+    [amount] => 12862
+    [amount_captured] => 12862
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3Lv4R3KfkWAXhDcH0R5ELmNO
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Asheville
+                    [country] => US
+                    [line1] => 15 Yorkshire Street #202
+                    [line2] => 
+                    [postal_code] => 28803
+                    [state] => NC
+                )
+
+            [email] => douglucas@ohhmd.com
+            [name] => Douglas Lucas
+            [phone] => 828-552-5515
+        )
+
+    [calculated_statement_descriptor] => METABOLIC CODE
+    [captured] => 1
+    [created] => 1666294186
+    [currency] => usd
+    [customer] => cus_L5g3JTqZyIWZM3
+    [description] => Metabolic Code - Order 768
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [level3] => stdClass Object
+        (
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 3589
+                            [product_description] => Adpt-CNS
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3465
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2700
+                            [product_description] => O-Mega 800
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 3775
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2697
+                            [product_description] => Vitamin D3, 5,000IU
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 1680
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [discount_amount] => 0
+                            [product_code] => 2542
+                            [product_description] => True Chelate Magnesium
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [unit_cost] => 2250
+                        )
+
+                )
+
+            [merchant_reference] => 5599
+            [shipping_address_zip] => 82410
+            [shipping_amount] => 1692
+            [shipping_from_zip] => 45202
+        )
+
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => manager@ohhmd.com
+            [customer_name] => Douglas Lucas
+            [order_id] => 768
+            [site_url] => https://www.metaboliccode.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3Lv4R3KfkWAXhDcH0yqQ06Y7
+    [payment_method] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => amex
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => 
+                        )
+
+                    [country] => US
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 1010
+                    [mandate] => 
+                    [network] => amex
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => manager@ohhmd.com
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFGbm53eEtma1dBWGhEY0goq8PGmgYyBr6ViqstHTosFmVGmIyMmYmQmf6goxwtQ6VspiVSilRVccmi1Syo5SPKjyWrW7hlS9OAanM
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3Lv4R3KfkWAXhDcH0WIM68fr/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Basin
+                    [country] => US
+                    [line1] => 4924 Orchard Bench Road
+                    [line2] => 
+                    [postal_code] => 82410
+                    [state] => WY
+                )
+
+            [carrier] => 
+            [name] => Kathleen Boyd
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1Kj0fTKfkWAXhDcHwE7bfLTF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => American Express
+                    [country] => US
+                    [cvc_check] => 
+                    [dynamic_last4] => 
+                    [exp_month] => 9
+                    [exp_year] => 2026
+                    [fingerprint] => bSkV15Zr7Rl22MhI
+                    [funding] => credit
+                    [last4] => 1010
+                    [name] => 
+                    [three_d_secure] => optional
+                    [tokenization_method] => 
+                )
+
+            [client_secret] => src_client_secret_HiFyQbOFTKjuQcew9EZNr1Fi
+            [created] => 1666294187
+            [currency] => 
+            [customer] => cus_L5g3JTqZyIWZM3
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Asheville
+                            [country] => US
+                            [line1] => 15 Yorkshire Street #202
+                            [line2] => 
+                            [postal_code] => 28803
+                            [state] => NC
+                        )
+
+                    [email] => douglucas@ohhmd.com
+                    [name] => Douglas Lucas
+                    [phone] => 828-552-5515
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2022-10-20T19:29:48+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+balance/history/txn_3Lv4R3KfkWAXhDcH0R5ELmNO
+====End Log====
+
+
+2022-10-20T21:26:53+00:00 DEBUG 
+====Stripe Version: 6.9.0====
+====Start Log====
+Could not find order via charge ID: ch_3Lv6GKKfkWAXhDcH0TFbd3xn
+====End Log====
+
+
